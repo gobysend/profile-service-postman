@@ -1,0 +1,950 @@
+{
+    "info": {
+        "_postman_id": "6f48ab14-d72c-41d4-b222-15363d0474e7",
+        "name": "Profile API docs",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Create a profile",
+            "id": "0518b449-99c7-4b74-a41d-8895261d9bd1",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"visitor_id\": \"in exercitation\",\n  \"database_id\": \"veniam\",\n  \"facebook_id\": \"id occaecat in\",\n  \"google_id\": \"amet in elit in oc\",\n  \"current_funnel_stage\": \"est dolore velit\",\n  \"profile_type\": 1013,\n  \"loyalty_point\": 65288632,\n  \"labels\": [\n    \"magna Excepteur dolor velit\",\n    \"cillum aute nostrud\"\n  ],\n  \"segments\": [\n    \"amet dolore\",\n    \"Ut magna\"\n  ],\n  \"lead_score\": 2527973,\n  \"lead_score_change_history\": [\n    {\n      \"pariatur_9\": \"ex eu sit cillum\",\n      \"anim_2\": \"reprehenderit nisi enim sint\"\n    },\n    {\n      \"voluptate_de0\": 14621907,\n      \"commodo_c0\": 1116348\n    }\n  ],\n  \"created_date\": \"1999-02-06T21:19:52.842Z\",\n  \"updated_date\": \"1945-12-09T03:07:52.959Z\",\n  \"primary_email\": \"sunt magna\",\n  \"primary_phone_number\": \"aliqua\",\n  \"first_name\": \"laborum sunt dolore\",\n  \"last_name\": \"in in consequat\",\n  \"full_name\": \"officia dolor enim\",\n  \"nickname\": [\n    \"cupidatat officia laborum anim elit\",\n    \"magna tempor\"\n  ],\n  \"gender\": 2864,\n  \"age\": 20227,\n  \"date_of_birth\": \"2000-02-12T18:19:46.428Z\",\n  \"race\": \"dolor con\",\n  \"religion\": \"officia sed veniam fugiat\",\n  \"nationality\": \"ipsum minim ea\",\n  \"language\": \"id nulla sed proident\",\n  \"timezone\": \"culpa officia do o\",\n  \"citizen_ids\": [\n    \"aliquip ut\",\n    \"ipsum ex proident non ut\"\n  ],\n  \"passport_ids\": [\n    \"pariatur in non\",\n    \"eiusmod irure nostrud\"\n  ],\n  \"additional_emails\": \"in reprehenderit ut\",\n  \"additional_phone_numbers\": \"reprehenderit fugi\",\n  \"social_network_profiles\": [\n    \"commodo amet occaecat elit eu\",\n    \"ipsum nostrud dolore sint\"\n  ],\n  \"education_level\": 14870,\n  \"education_and_schools\": [\n    \"ipsum qui ulla\",\n    \"cupidatat fugiat consequat culpa\"\n  ],\n  \"family_status\": 16004,\n  \"job_titles\": [\n    \"in qui magna \",\n    \"sunt veniam in irure\"\n  ],\n  \"company_names\": [\n    \"fugiat anim labori\",\n    \"laborum dolore in\"\n  ],\n  \"company_aliases\": [\n    \"tempor dolor fugiat\",\n    \"dolore culpa aliquip est ut\"\n  ],\n  \"company_ids\": [\n    \"magna ipsum\",\n    \"officia fugiat do\"\n  ],\n  \"credit_history\": [\n    {\n      \"occaecat___\": 98750971,\n      \"magna_c71\": -49184478,\n      \"aliquip4\": 61206808\n    },\n    {\n      \"fugiat_b\": 68314050,\n      \"Excepteur4b\": \"enim ut elit mollit\"\n    }\n  ],\n  \"monthly_income\": 13260069.439253975,\n  \"annual_income\": 91147165.14484127,\n  \"number_of_dependants\": 15568,\n  \"number_of_open_credit_lines_and_loans\": 76347007.87669475,\n  \"number_real_estate_loans_or_lines\": 70918571.21390057,\n  \"lifestyles\": [\n    \"in ullamco ipsum\",\n    \"ut amet \"\n  ],\n  \"social_status\": [\n    \"ea elit velit\",\n    \"aute elit dolore ut\"\n  ],\n  \"personality\": [\n    \"proident exercitation\",\n    \"qui veniam ea\"\n  ],\n  \"hobbies\": [\n    \"minim\",\n    \"et eiusmod\"\n  ],\n  \"attitudes\": [\n    \"aliquip Ut proident consequat adipisicing\",\n    \"nostrud consequat ullamco veli\"\n  ],\n  \"interests\": [\n    \"consequat incididunt do ipsum sint\",\n    \"non Excepteur Duis aliqua irure\"\n  ],\n  \"engaged_touch_points\": [\n    \"non\",\n    \"nisi occaecat\"\n  ],\n  \"reachable_media_channels\": [\n    {\n      \"Duis1\": \"cupidatat consequat laborum ex\"\n    },\n    {\n      \"aute_f\": true,\n      \"fugiat_19\": -83806332,\n      \"reprehenderit_148\": -79458455\n    }\n  ],\n  \"content_marketing_keywords\": [\n    \"\",\n    \"sunt nisi minim\"\n  ],\n  \"personal_problem_and_pain_points\": [\n    \"veniam Ut officia\",\n    \"cillum irure laborum proident\"\n  ],\n  \"solutions_for_customer\": [\n    \"ipsum pariatur culpa ad\",\n    \"adipisicing aliqua irure voluptate\"\n  ],\n  \"online_shopping_habits\": [\n    \"deserunt officia dolore id\",\n    \"dolore\"\n  ],\n  \"timing_based_behaviour\": \"quis id non deserunt consequat\",\n  \"actions_taken_on_web_app\": [\n    \"reprehenderit dolor adipisicing\",\n    \"amet\"\n  ],\n  \"abandoned_cart\": [\n    {\n      \"ametb\": 51800782\n    },\n    {\n      \"in_d_\": -81323352,\n      \"aliqua1f\": \"exercitation\",\n      \"eiusmodf\": 65969862.3133305,\n      \"sed_0e7\": -38976364\n    }\n  ],\n  \"interested_products\": [\n    {\n      \"eu_c\": false\n    },\n    {\n      \"commodo__\": 96537680\n    }\n  ],\n  \"recommended_products\": [\n    {\n      \"dolor_da_\": \"proident el\",\n      \"do7\": \"nulla\",\n      \"est_797\": -76451821.236438,\n      \"exf\": -57999174.86483736\n    },\n    {\n      \"quis_b\": 28017269.71882154\n    }\n  ],\n  \"purchased_products\": [\n    {\n      \"sed5\": 42666957\n    },\n    {\n      \"nonaf0\": 91681947.58658373\n    }\n  ],\n  \"customer_feedbacks\": [\n    {\n      \"ad003\": 3598172.193329856,\n      \"reprehenderita\": \"id esse qui quis laborum\",\n      \"suntb\": true\n    },\n    {\n      \"labore___8\": false,\n      \"ad5df\": \"aliquip non culpa\"\n    }\n  ],\n  \"customer_support_tickets\": [\n    {\n      \"nisib_2\": -66433970.961135015,\n      \"enim00c\": false\n    },\n    {\n      \"tempor8\": 62584997.26584795,\n      \"aliquip_4\": -9641958\n    }\n  ],\n  \"number_of_sessions\": 71535991,\n  \"number_of_pages_visited\": 73906421,\n  \"time_spent_on_site\": 74371431,\n  \"visited_urls\": [\n    \"mollit deserunt\",\n    \"ut dolor\"\n  ],\n  \"visited_page_types\": [\n    \"elit aliquip\",\n    \"esse fugiat veniam i\"\n  ],\n  \"shopping_cart_value\": 29840862,\n  \"campaign_history\": [\n    {\n      \"eu_bd\": false,\n      \"nostrud_1a3\": -53093635.888780266\n    },\n    {\n      \"enim_cf7\": 12215440,\n      \"et_3\": -51265603,\n      \"commodo_86\": 6735987.286915451\n    }\n  ],\n  \"referral_source\": [\n    \"sint reprehenderit\",\n    \"nostrud ut\"\n  ],\n  \"exit_intent\": [\n    {\n      \"Duis_dcc\": 3895038.758476138,\n      \"sit046\": -48697611.81560302,\n      \"ut6\": 77836879\n    },\n    {\n      \"laboris_1ae\": true\n    }\n  ],\n  \"inactivity_time\": 97761167,\n  \"industry\": \"dolor dolore consectetur\",\n  \"company_size\": 28550,\n  \"number_of_employees\": 13391,\n  \"status_and_structure\": \"cillum do\",\n  \"performance\": [\n    {\n      \"exafa\": 64985389.81766832,\n      \"nostrud_c7\": \"labore culpa\",\n      \"in_e\": false\n    },\n    {\n      \"exercitation_a42\": -83247101.77808851,\n      \"ullamco_4\": -21775321.002952725\n    }\n  ],\n  \"account_id\": 62857311,\n  \"workspace_id\": 71666728,\n  \"source_id\": 97998091,\n  \"source_type\": \"ut quis\",\n  \"import_id\": 73268900,\n  \"archived\": true,\n  \"email_status\": \"ad adipisicing ut\",\n  \"external_id\": 56949687,\n  \"first_visit\": \"1963-02-17T20:06:41.588Z\",\n  \"last_visit\": \"2021-02-07T10:08:32.266Z\",\n  \"number_of_visits\": 26723028,\n  \"previous_visit\": \"1973-07-20T08:57:20.518Z\",\n  \"status\": 24262,\n  \"subscribed_at\": \"1947-04-16T08:16:34.130Z\",\n  \"custom_fields\": [\n    {\n      \"tempor7\": -26274648,\n      \"do_5a\": -96438777,\n      \"ea5\": \"proident incididunt aliqua commodo\"\n    },\n    {\n      \"nulla_efa\": \"ea deserunt elit fugiat Excepteur\",\n      \"amet_1\": 75615253,\n      \"veniam6\": -79260043\n    }\n  ]\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/v1/profiles",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "v1",
+                        "profiles"
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "id": "2257faa1-73e4-4e74-9e6b-668f4ffaac05",
+                    "name": "Details about a created profile",
+                    "originalRequest": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"visitor_id\": \"<string>\",\n  \"database_id\": \"<string>\",\n  \"facebook_id\": \"<string>\",\n  \"google_id\": \"<string>\",\n  \"current_funnel_stage\": \"<string>\",\n  \"profile_type\": \"<integer>\",\n  \"loyalty_point\": \"<long>\",\n  \"labels\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"segments\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"lead_score\": \"<long>\",\n  \"lead_score_change_history\": [\n    {\n      \"nulla6\": -34371475\n    },\n    {\n      \"cupidatat4_f\": false,\n      \"velit1\": -95606444.47818851,\n      \"esse_7ef\": true\n    }\n  ],\n  \"created_date\": \"<dateTime>\",\n  \"updated_date\": \"<dateTime>\",\n  \"primary_email\": \"<string>\",\n  \"primary_phone_number\": \"<string>\",\n  \"first_name\": \"<string>\",\n  \"last_name\": \"<string>\",\n  \"full_name\": \"<string>\",\n  \"nickname\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"gender\": \"<integer>\",\n  \"age\": \"<integer>\",\n  \"date_of_birth\": \"<dateTime>\",\n  \"race\": \"<string>\",\n  \"religion\": \"<string>\",\n  \"nationality\": \"<string>\",\n  \"language\": \"<string>\",\n  \"timezone\": \"<string>\",\n  \"citizen_ids\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"passport_ids\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"additional_emails\": \"<string>\",\n  \"additional_phone_numbers\": \"<string>\",\n  \"social_network_profiles\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"education_level\": \"<integer>\",\n  \"education_and_schools\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"family_status\": \"<integer>\",\n  \"job_titles\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"company_names\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"company_aliases\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"company_ids\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"credit_history\": [\n    {\n      \"amet_28e\": \"eu anim tempor irure\",\n      \"laborum29\": 62447583.10138127,\n      \"culpa_4d\": -88121493.63813528\n    },\n    {\n      \"do_6\": \"amet qui et id\",\n      \"enimc\": -23322202,\n      \"nisic0\": true\n    }\n  ],\n  \"monthly_income\": \"<double>\",\n  \"annual_income\": \"<double>\",\n  \"number_of_dependants\": \"<integer>\",\n  \"number_of_open_credit_lines_and_loans\": \"<double>\",\n  \"number_real_estate_loans_or_lines\": \"<double>\",\n  \"lifestyles\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"social_status\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"personality\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"hobbies\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"attitudes\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"interests\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"engaged_touch_points\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"reachable_media_channels\": [\n    {\n      \"incididunt25\": -88576065,\n      \"exercitation_63\": 94610542\n    },\n    {\n      \"ad__b8\": \"eiusmod et\",\n      \"Ut58\": -69494854,\n      \"deserunt_9b\": false\n    }\n  ],\n  \"content_marketing_keywords\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"personal_problem_and_pain_points\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"solutions_for_customer\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"online_shopping_habits\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"timing_based_behaviour\": \"<string>\",\n  \"actions_taken_on_web_app\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"abandoned_cart\": [\n    {\n      \"dod53\": true\n    },\n    {\n      \"in_2\": \"enim quis occaecat\"\n    }\n  ],\n  \"interested_products\": [\n    {\n      \"ad_6\": true\n    },\n    {\n      \"non_0fc\": \"eiusmod dolor\",\n      \"nisi_e08\": -52292584.48467742\n    }\n  ],\n  \"recommended_products\": [\n    {\n      \"laboreec\": false\n    },\n    {\n      \"inb\": -68001705.14493966,\n      \"culpa_c5\": -67609652\n    }\n  ],\n  \"purchased_products\": [\n    {\n      \"proident38\": \"reprehenderit officia nulla\",\n      \"voluptate4b4\": true\n    },\n    {\n      \"officia_fb\": 31330259.286876366,\n      \"nisia\": -4469268,\n      \"consequat_b\": -2589896\n    }\n  ],\n  \"customer_feedbacks\": [\n    {\n      \"est1\": -48764691.93458415\n    },\n    {\n      \"suntec\": 37764362,\n      \"qui3_\": 78129550.03452125,\n      \"laborum6\": -70266703.57059297,\n      \"irurec21\": true\n    }\n  ],\n  \"customer_support_tickets\": [\n    {\n      \"deserunt_0\": -17013415,\n      \"velit92\": 75098338.85032079\n    },\n    {\n      \"estbe\": true\n    }\n  ],\n  \"number_of_sessions\": \"<long>\",\n  \"number_of_pages_visited\": \"<long>\",\n  \"time_spent_on_site\": \"<long>\",\n  \"visited_urls\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"visited_page_types\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"shopping_cart_value\": \"<long>\",\n  \"campaign_history\": [\n    {\n      \"in233\": false,\n      \"Lorem0e9\": -78206134.49023917\n    },\n    {\n      \"ullamco_e\": true\n    }\n  ],\n  \"referral_source\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"exit_intent\": [\n    {\n      \"Excepteur8c0\": \"aliquip pariatur consectetur nostrud\"\n    },\n    {\n      \"Lorem__b\": 1879679,\n      \"dolorcd5\": 63545482,\n      \"laboris_f33\": \"tempor Lorem\"\n    }\n  ],\n  \"inactivity_time\": \"<long>\",\n  \"industry\": \"<string>\",\n  \"company_size\": \"<integer>\",\n  \"number_of_employees\": \"<integer>\",\n  \"status_and_structure\": \"<string>\",\n  \"performance\": [\n    {\n      \"culpa95\": -64210450\n    },\n    {\n      \"deserunt_9\": \"ma\"\n    }\n  ],\n  \"account_id\": \"<long>\",\n  \"workspace_id\": \"<long>\",\n  \"source_id\": \"<long>\",\n  \"source_type\": \"<string>\",\n  \"import_id\": \"<long>\",\n  \"archived\": \"<boolean>\",\n  \"email_status\": \"<string>\",\n  \"external_id\": \"<long>\",\n  \"first_visit\": \"<dateTime>\",\n  \"last_visit\": \"<dateTime>\",\n  \"number_of_visits\": \"<long>\",\n  \"previous_visit\": \"<dateTime>\",\n  \"status\": \"<integer>\",\n  \"subscribed_at\": \"<dateTime>\",\n  \"custom_fields\": [\n    {\n      \"inb5\": -46129060,\n      \"veniam299\": true,\n      \"proident_2_\": 97557289.8090451\n    },\n    {\n      \"dolor_f51\": -46646032.78611357\n    }\n  ]\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/v1/profiles",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "v1",
+                                "profiles"
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n  \"visitor_id\": \"<string>\",\n  \"database_id\": \"<string>\",\n  \"facebook_id\": \"<string>\",\n  \"google_id\": \"<string>\",\n  \"current_funnel_stage\": \"<string>\",\n  \"profile_type\": \"<integer>\",\n  \"loyalty_point\": \"<long>\",\n  \"labels\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"segments\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"lead_score\": \"<long>\",\n  \"lead_score_change_history\": [\n    {\n      \"id4\": 57431785.14063674\n    },\n    {\n      \"anima\": 12638865.16220975,\n      \"in_c\": -38013405,\n      \"nonc8\": false,\n      \"irure4\": \"mollit\",\n      \"ipsum5\": 79751053.75685039\n    }\n  ],\n  \"created_date\": \"<dateTime>\",\n  \"updated_date\": \"<dateTime>\",\n  \"primary_email\": \"<string>\",\n  \"primary_phone_number\": \"<string>\",\n  \"first_name\": \"<string>\",\n  \"last_name\": \"<string>\",\n  \"full_name\": \"<string>\",\n  \"nickname\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"gender\": \"<integer>\",\n  \"age\": \"<integer>\",\n  \"date_of_birth\": \"<dateTime>\",\n  \"race\": \"<string>\",\n  \"religion\": \"<string>\",\n  \"nationality\": \"<string>\",\n  \"language\": \"<string>\",\n  \"timezone\": \"<string>\",\n  \"citizen_ids\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"passport_ids\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"additional_emails\": \"<string>\",\n  \"additional_phone_numbers\": \"<string>\",\n  \"social_network_profiles\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"education_level\": \"<integer>\",\n  \"education_and_schools\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"family_status\": \"<integer>\",\n  \"job_titles\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"company_names\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"company_aliases\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"company_ids\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"credit_history\": [\n    {\n      \"ullamco_9\": false,\n      \"uta0\": \"cillum tempor fugiat\"\n    },\n    {\n      \"Lorem_353\": 99976561\n    }\n  ],\n  \"monthly_income\": \"<double>\",\n  \"annual_income\": \"<double>\",\n  \"number_of_dependants\": \"<integer>\",\n  \"number_of_open_credit_lines_and_loans\": \"<double>\",\n  \"number_real_estate_loans_or_lines\": \"<double>\",\n  \"lifestyles\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"social_status\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"personality\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"hobbies\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"attitudes\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"interests\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"engaged_touch_points\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"reachable_media_channels\": [\n    {\n      \"irurebe7\": -12626750\n    },\n    {\n      \"in_\": -46376914\n    }\n  ],\n  \"content_marketing_keywords\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"personal_problem_and_pain_points\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"solutions_for_customer\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"online_shopping_habits\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"timing_based_behaviour\": \"<string>\",\n  \"actions_taken_on_web_app\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"abandoned_cart\": [\n    {\n      \"nostrud965\": true,\n      \"culpaa\": false,\n      \"do_fb\": \"velit irure\"\n    },\n    {\n      \"idff4\": -2825422.7948362827,\n      \"dolore_183\": 92493754.46119729\n    }\n  ],\n  \"interested_products\": [\n    {\n      \"autedd\": \"voluptate sint\"\n    },\n    {\n      \"in848\": 83243679,\n      \"ea_113\": -46599300,\n      \"animb5\": -80513890\n    }\n  ],\n  \"recommended_products\": [\n    {\n      \"dolore__e\": \"reprehenderit veniam ut\"\n    },\n    {\n      \"voluptate4ba\": \"laboris in\",\n      \"quis_9\": 14352498.705777705,\n      \"Loremb\": -81022077.37197556\n    }\n  ],\n  \"purchased_products\": [\n    {\n      \"enim_3\": 57161123.65406722,\n      \"incididunt0a\": 79270044\n    },\n    {\n      \"sit102\": -55174366.208609715,\n      \"nullab0a\": \"cillum nulla\"\n    }\n  ],\n  \"customer_feedbacks\": [\n    {\n      \"enim_4e\": 1849701.7081557512\n    },\n    {\n      \"dolore_4\": -90952705.34732984\n    }\n  ],\n  \"customer_support_tickets\": [\n    {\n      \"irure_5db\": false,\n      \"consequat_76\": true\n    },\n    {\n      \"Duis_7b\": \"aliqua in dolore est\"\n    }\n  ],\n  \"number_of_sessions\": \"<long>\",\n  \"number_of_pages_visited\": \"<long>\",\n  \"time_spent_on_site\": \"<long>\",\n  \"visited_urls\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"visited_page_types\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"shopping_cart_value\": \"<long>\",\n  \"campaign_history\": [\n    {\n      \"laborea\": 58621691,\n      \"in_7\": \"occaec\",\n      \"seda6\": 54007261.49818635\n    },\n    {\n      \"incididunt_0a\": true,\n      \"exercitation749\": -73081348\n    }\n  ],\n  \"referral_source\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"exit_intent\": [\n    {\n      \"essee37\": \"in Duis\"\n    },\n    {\n      \"autec7\": \"labore magna nostrud qui\"\n    }\n  ],\n  \"inactivity_time\": \"<long>\",\n  \"industry\": \"<string>\",\n  \"company_size\": \"<integer>\",\n  \"number_of_employees\": \"<integer>\",\n  \"status_and_structure\": \"<string>\",\n  \"performance\": [\n    {\n      \"veniam_fbd\": 61855012,\n      \"dolore_bc0\": \"est offi\",\n      \"Ute\": 53509348.18130097,\n      \"culpa3\": \"dolor nostrud anim ullamco\"\n    },\n    {\n      \"ipsum_7\": 22989172.350619078,\n      \"consectetur_33\": false\n    }\n  ],\n  \"account_id\": \"<long>\",\n  \"workspace_id\": \"<long>\",\n  \"source_id\": \"<long>\",\n  \"source_type\": \"<string>\",\n  \"import_id\": \"<long>\",\n  \"archived\": \"<boolean>\",\n  \"email_status\": \"<string>\",\n  \"external_id\": \"<long>\",\n  \"first_visit\": \"<dateTime>\",\n  \"last_visit\": \"<dateTime>\",\n  \"number_of_visits\": \"<long>\",\n  \"previous_visit\": \"<dateTime>\",\n  \"status\": \"<integer>\",\n  \"subscribed_at\": \"<dateTime>\",\n  \"custom_fields\": [\n    {\n      \"ea_adc\": true,\n      \"nisif\": false,\n      \"mollit_441\": -3308525.163740754\n    },\n    {\n      \"ut8\": true\n    }\n  ]\n}"
+                },
+                {
+                    "id": "6fdbd657-c771-4f34-a92c-0a667dce1a3f",
+                    "name": "Unexpected error",
+                    "originalRequest": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"visitor_id\": \"<string>\",\n  \"database_id\": \"<string>\",\n  \"facebook_id\": \"<string>\",\n  \"google_id\": \"<string>\",\n  \"current_funnel_stage\": \"<string>\",\n  \"profile_type\": \"<integer>\",\n  \"loyalty_point\": \"<long>\",\n  \"labels\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"segments\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"lead_score\": \"<long>\",\n  \"lead_score_change_history\": [\n    {\n      \"id4\": 57431785.14063674\n    },\n    {\n      \"anima\": 12638865.16220975,\n      \"in_c\": -38013405,\n      \"nonc8\": false,\n      \"irure4\": \"mollit\",\n      \"ipsum5\": 79751053.75685039\n    }\n  ],\n  \"created_date\": \"<dateTime>\",\n  \"updated_date\": \"<dateTime>\",\n  \"primary_email\": \"<string>\",\n  \"primary_phone_number\": \"<string>\",\n  \"first_name\": \"<string>\",\n  \"last_name\": \"<string>\",\n  \"full_name\": \"<string>\",\n  \"nickname\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"gender\": \"<integer>\",\n  \"age\": \"<integer>\",\n  \"date_of_birth\": \"<dateTime>\",\n  \"race\": \"<string>\",\n  \"religion\": \"<string>\",\n  \"nationality\": \"<string>\",\n  \"language\": \"<string>\",\n  \"timezone\": \"<string>\",\n  \"citizen_ids\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"passport_ids\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"additional_emails\": \"<string>\",\n  \"additional_phone_numbers\": \"<string>\",\n  \"social_network_profiles\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"education_level\": \"<integer>\",\n  \"education_and_schools\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"family_status\": \"<integer>\",\n  \"job_titles\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"company_names\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"company_aliases\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"company_ids\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"credit_history\": [\n    {\n      \"ullamco_9\": false,\n      \"uta0\": \"cillum tempor fugiat\"\n    },\n    {\n      \"Lorem_353\": 99976561\n    }\n  ],\n  \"monthly_income\": \"<double>\",\n  \"annual_income\": \"<double>\",\n  \"number_of_dependants\": \"<integer>\",\n  \"number_of_open_credit_lines_and_loans\": \"<double>\",\n  \"number_real_estate_loans_or_lines\": \"<double>\",\n  \"lifestyles\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"social_status\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"personality\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"hobbies\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"attitudes\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"interests\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"engaged_touch_points\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"reachable_media_channels\": [\n    {\n      \"irurebe7\": -12626750\n    },\n    {\n      \"in_\": -46376914\n    }\n  ],\n  \"content_marketing_keywords\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"personal_problem_and_pain_points\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"solutions_for_customer\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"online_shopping_habits\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"timing_based_behaviour\": \"<string>\",\n  \"actions_taken_on_web_app\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"abandoned_cart\": [\n    {\n      \"nostrud965\": true,\n      \"culpaa\": false,\n      \"do_fb\": \"velit irure\"\n    },\n    {\n      \"idff4\": -2825422.7948362827,\n      \"dolore_183\": 92493754.46119729\n    }\n  ],\n  \"interested_products\": [\n    {\n      \"autedd\": \"voluptate sint\"\n    },\n    {\n      \"in848\": 83243679,\n      \"ea_113\": -46599300,\n      \"animb5\": -80513890\n    }\n  ],\n  \"recommended_products\": [\n    {\n      \"dolore__e\": \"reprehenderit veniam ut\"\n    },\n    {\n      \"voluptate4ba\": \"laboris in\",\n      \"quis_9\": 14352498.705777705,\n      \"Loremb\": -81022077.37197556\n    }\n  ],\n  \"purchased_products\": [\n    {\n      \"enim_3\": 57161123.65406722,\n      \"incididunt0a\": 79270044\n    },\n    {\n      \"sit102\": -55174366.208609715,\n      \"nullab0a\": \"cillum nulla\"\n    }\n  ],\n  \"customer_feedbacks\": [\n    {\n      \"enim_4e\": 1849701.7081557512\n    },\n    {\n      \"dolore_4\": -90952705.34732984\n    }\n  ],\n  \"customer_support_tickets\": [\n    {\n      \"irure_5db\": false,\n      \"consequat_76\": true\n    },\n    {\n      \"Duis_7b\": \"aliqua in dolore est\"\n    }\n  ],\n  \"number_of_sessions\": \"<long>\",\n  \"number_of_pages_visited\": \"<long>\",\n  \"time_spent_on_site\": \"<long>\",\n  \"visited_urls\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"visited_page_types\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"shopping_cart_value\": \"<long>\",\n  \"campaign_history\": [\n    {\n      \"laborea\": 58621691,\n      \"in_7\": \"occaec\",\n      \"seda6\": 54007261.49818635\n    },\n    {\n      \"incididunt_0a\": true,\n      \"exercitation749\": -73081348\n    }\n  ],\n  \"referral_source\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"exit_intent\": [\n    {\n      \"essee37\": \"in Duis\"\n    },\n    {\n      \"autec7\": \"labore magna nostrud qui\"\n    }\n  ],\n  \"inactivity_time\": \"<long>\",\n  \"industry\": \"<string>\",\n  \"company_size\": \"<integer>\",\n  \"number_of_employees\": \"<integer>\",\n  \"status_and_structure\": \"<string>\",\n  \"performance\": [\n    {\n      \"veniam_fbd\": 61855012,\n      \"dolore_bc0\": \"est offi\",\n      \"Ute\": 53509348.18130097,\n      \"culpa3\": \"dolor nostrud anim ullamco\"\n    },\n    {\n      \"ipsum_7\": 22989172.350619078,\n      \"consectetur_33\": false\n    }\n  ],\n  \"account_id\": \"<long>\",\n  \"workspace_id\": \"<long>\",\n  \"source_id\": \"<long>\",\n  \"source_type\": \"<string>\",\n  \"import_id\": \"<long>\",\n  \"archived\": \"<boolean>\",\n  \"email_status\": \"<string>\",\n  \"external_id\": \"<long>\",\n  \"first_visit\": \"<dateTime>\",\n  \"last_visit\": \"<dateTime>\",\n  \"number_of_visits\": \"<long>\",\n  \"previous_visit\": \"<dateTime>\",\n  \"status\": \"<integer>\",\n  \"subscribed_at\": \"<dateTime>\",\n  \"custom_fields\": [\n    {\n      \"ea_adc\": true,\n      \"nisif\": false,\n      \"mollit_441\": -3308525.163740754\n    },\n    {\n      \"ut8\": true\n    }\n  ]\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/v1/profiles",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "v1",
+                                "profiles"
+                            ]
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n  \"code\": \"<integer>\",\n  \"message\": \"<string>\"\n}"
+                }
+            ]
+        },
+        {
+            "name": "Return details about a particular profile",
+            "id": "02759ab0-678a-4ee9-8a41-1a946f711944",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{baseUrl}}/v1/profiles/:id",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "v1",
+                        "profiles",
+                        ":id"
+                    ],
+                    "variable": [
+                        {
+                            "id": "ee4fed29-b9ad-43b1-81b6-874fd3a6208f",
+                            "key": "id",
+                            "value": "54296675",
+                            "description": "(Required) ID of the profile"
+                        }
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "id": "12109dbf-9b09-4bce-a955-f3c4fee4e509",
+                    "name": "Details about a profile by ID",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/v1/profiles/:id",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "v1",
+                                "profiles",
+                                ":id"
+                            ],
+                            "variable": [
+                                {
+                                    "key": "id",
+                                    "value": "54296675",
+                                    "description": "(Required) ID of the profile"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n  \"visitor_id\": \"<string>\",\n  \"database_id\": \"<string>\",\n  \"facebook_id\": \"<string>\",\n  \"google_id\": \"<string>\",\n  \"current_funnel_stage\": \"<string>\",\n  \"profile_type\": \"<integer>\",\n  \"loyalty_point\": \"<long>\",\n  \"labels\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"segments\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"lead_score\": \"<long>\",\n  \"lead_score_change_history\": [\n    {\n      \"id4\": 57431785.14063674\n    },\n    {\n      \"anima\": 12638865.16220975,\n      \"in_c\": -38013405,\n      \"nonc8\": false,\n      \"irure4\": \"mollit\",\n      \"ipsum5\": 79751053.75685039\n    }\n  ],\n  \"created_date\": \"<dateTime>\",\n  \"updated_date\": \"<dateTime>\",\n  \"primary_email\": \"<string>\",\n  \"primary_phone_number\": \"<string>\",\n  \"first_name\": \"<string>\",\n  \"last_name\": \"<string>\",\n  \"full_name\": \"<string>\",\n  \"nickname\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"gender\": \"<integer>\",\n  \"age\": \"<integer>\",\n  \"date_of_birth\": \"<dateTime>\",\n  \"race\": \"<string>\",\n  \"religion\": \"<string>\",\n  \"nationality\": \"<string>\",\n  \"language\": \"<string>\",\n  \"timezone\": \"<string>\",\n  \"citizen_ids\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"passport_ids\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"additional_emails\": \"<string>\",\n  \"additional_phone_numbers\": \"<string>\",\n  \"social_network_profiles\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"education_level\": \"<integer>\",\n  \"education_and_schools\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"family_status\": \"<integer>\",\n  \"job_titles\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"company_names\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"company_aliases\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"company_ids\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"credit_history\": [\n    {\n      \"ullamco_9\": false,\n      \"uta0\": \"cillum tempor fugiat\"\n    },\n    {\n      \"Lorem_353\": 99976561\n    }\n  ],\n  \"monthly_income\": \"<double>\",\n  \"annual_income\": \"<double>\",\n  \"number_of_dependants\": \"<integer>\",\n  \"number_of_open_credit_lines_and_loans\": \"<double>\",\n  \"number_real_estate_loans_or_lines\": \"<double>\",\n  \"lifestyles\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"social_status\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"personality\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"hobbies\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"attitudes\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"interests\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"engaged_touch_points\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"reachable_media_channels\": [\n    {\n      \"irurebe7\": -12626750\n    },\n    {\n      \"in_\": -46376914\n    }\n  ],\n  \"content_marketing_keywords\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"personal_problem_and_pain_points\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"solutions_for_customer\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"online_shopping_habits\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"timing_based_behaviour\": \"<string>\",\n  \"actions_taken_on_web_app\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"abandoned_cart\": [\n    {\n      \"nostrud965\": true,\n      \"culpaa\": false,\n      \"do_fb\": \"velit irure\"\n    },\n    {\n      \"idff4\": -2825422.7948362827,\n      \"dolore_183\": 92493754.46119729\n    }\n  ],\n  \"interested_products\": [\n    {\n      \"autedd\": \"voluptate sint\"\n    },\n    {\n      \"in848\": 83243679,\n      \"ea_113\": -46599300,\n      \"animb5\": -80513890\n    }\n  ],\n  \"recommended_products\": [\n    {\n      \"dolore__e\": \"reprehenderit veniam ut\"\n    },\n    {\n      \"voluptate4ba\": \"laboris in\",\n      \"quis_9\": 14352498.705777705,\n      \"Loremb\": -81022077.37197556\n    }\n  ],\n  \"purchased_products\": [\n    {\n      \"enim_3\": 57161123.65406722,\n      \"incididunt0a\": 79270044\n    },\n    {\n      \"sit102\": -55174366.208609715,\n      \"nullab0a\": \"cillum nulla\"\n    }\n  ],\n  \"customer_feedbacks\": [\n    {\n      \"enim_4e\": 1849701.7081557512\n    },\n    {\n      \"dolore_4\": -90952705.34732984\n    }\n  ],\n  \"customer_support_tickets\": [\n    {\n      \"irure_5db\": false,\n      \"consequat_76\": true\n    },\n    {\n      \"Duis_7b\": \"aliqua in dolore est\"\n    }\n  ],\n  \"number_of_sessions\": \"<long>\",\n  \"number_of_pages_visited\": \"<long>\",\n  \"time_spent_on_site\": \"<long>\",\n  \"visited_urls\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"visited_page_types\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"shopping_cart_value\": \"<long>\",\n  \"campaign_history\": [\n    {\n      \"laborea\": 58621691,\n      \"in_7\": \"occaec\",\n      \"seda6\": 54007261.49818635\n    },\n    {\n      \"incididunt_0a\": true,\n      \"exercitation749\": -73081348\n    }\n  ],\n  \"referral_source\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"exit_intent\": [\n    {\n      \"essee37\": \"in Duis\"\n    },\n    {\n      \"autec7\": \"labore magna nostrud qui\"\n    }\n  ],\n  \"inactivity_time\": \"<long>\",\n  \"industry\": \"<string>\",\n  \"company_size\": \"<integer>\",\n  \"number_of_employees\": \"<integer>\",\n  \"status_and_structure\": \"<string>\",\n  \"performance\": [\n    {\n      \"veniam_fbd\": 61855012,\n      \"dolore_bc0\": \"est offi\",\n      \"Ute\": 53509348.18130097,\n      \"culpa3\": \"dolor nostrud anim ullamco\"\n    },\n    {\n      \"ipsum_7\": 22989172.350619078,\n      \"consectetur_33\": false\n    }\n  ],\n  \"account_id\": \"<long>\",\n  \"workspace_id\": \"<long>\",\n  \"source_id\": \"<long>\",\n  \"source_type\": \"<string>\",\n  \"import_id\": \"<long>\",\n  \"archived\": \"<boolean>\",\n  \"email_status\": \"<string>\",\n  \"external_id\": \"<long>\",\n  \"first_visit\": \"<dateTime>\",\n  \"last_visit\": \"<dateTime>\",\n  \"number_of_visits\": \"<long>\",\n  \"previous_visit\": \"<dateTime>\",\n  \"status\": \"<integer>\",\n  \"subscribed_at\": \"<dateTime>\",\n  \"custom_fields\": [\n    {\n      \"ea_adc\": true,\n      \"nisif\": false,\n      \"mollit_441\": -3308525.163740754\n    },\n    {\n      \"ut8\": true\n    }\n  ]\n}"
+                },
+                {
+                    "id": "f099419c-47de-42b8-8aaf-982fc937878f",
+                    "name": "Unexpected error",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/v1/profiles/:id",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "v1",
+                                "profiles",
+                                ":id"
+                            ],
+                            "variable": [
+                                {
+                                    "key": "id",
+                                    "value": "54296675",
+                                    "description": "(Required) ID of the profile"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n  \"code\": \"<integer>\",\n  \"message\": \"<string>\"\n}"
+                }
+            ]
+        },
+        {
+            "name": "Update a profile",
+            "id": "625da7ac-f6a3-41df-a14e-719b47e88cf4",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"profile\": {\n    \"visitor_id\": \"<string>\",\n    \"database_id\": \"<string>\",\n    \"facebook_id\": \"<string>\",\n    \"google_id\": \"<string>\",\n    \"current_funnel_stage\": \"<string>\",\n    \"profile_type\": \"<integer>\",\n    \"loyalty_point\": \"<long>\",\n    \"labels\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"segments\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"lead_score\": \"<long>\",\n    \"lead_score_change_history\": [\n      {\n        \"Duis6\": \"exercitation minim ullamco commodo\",\n        \"magna6_\": false\n      },\n      {\n        \"reprehenderit_6\": \"labore eiusmod sunt\",\n        \"Ut0b_\": false\n      }\n    ],\n    \"created_date\": \"<dateTime>\",\n    \"updated_date\": \"<dateTime>\",\n    \"primary_email\": \"<string>\",\n    \"primary_phone_number\": \"<string>\",\n    \"first_name\": \"<string>\",\n    \"last_name\": \"<string>\",\n    \"full_name\": \"<string>\",\n    \"nickname\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"gender\": \"<integer>\",\n    \"age\": \"<integer>\",\n    \"date_of_birth\": \"<dateTime>\",\n    \"race\": \"<string>\",\n    \"religion\": \"<string>\",\n    \"nationality\": \"<string>\",\n    \"language\": \"<string>\",\n    \"timezone\": \"<string>\",\n    \"citizen_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"passport_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"additional_emails\": \"<string>\",\n    \"additional_phone_numbers\": \"<string>\",\n    \"social_network_profiles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"education_level\": \"<integer>\",\n    \"education_and_schools\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"family_status\": \"<integer>\",\n    \"job_titles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_names\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_aliases\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"credit_history\": [\n      {\n        \"ut_87\": 23279759,\n        \"deserunt_cd8\": \"cillum do\",\n        \"ipsum_449\": \"irure reprehenderit\",\n        \"ad0\": -73124356.568279\n      },\n      {\n        \"sit3\": true\n      }\n    ],\n    \"monthly_income\": \"<double>\",\n    \"annual_income\": \"<double>\",\n    \"number_of_dependants\": \"<integer>\",\n    \"number_of_open_credit_lines_and_loans\": \"<double>\",\n    \"number_real_estate_loans_or_lines\": \"<double>\",\n    \"lifestyles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"social_status\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"personality\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"hobbies\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"attitudes\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"interests\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"engaged_touch_points\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"reachable_media_channels\": [\n      {\n        \"ipsumb0a\": -98898577,\n        \"commodo8\": false,\n        \"adipisicing__\": -9616477.886152104\n      },\n      {\n        \"nisi64c\": 42785677.45454785,\n        \"proident83e\": 66756885.28322667\n      }\n    ],\n    \"content_marketing_keywords\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"personal_problem_and_pain_points\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"solutions_for_customer\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"online_shopping_habits\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"timing_based_behaviour\": \"<string>\",\n    \"actions_taken_on_web_app\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"abandoned_cart\": [\n      {\n        \"occaecat_2\": false\n      },\n      {\n        \"nonb\": \"mollit laborum reprehenderit\"\n      }\n    ],\n    \"interested_products\": [\n      {\n        \"commodocb3\": false\n      },\n      {\n        \"sint_275\": -60579251,\n        \"proident_\": 88444462.00166151\n      }\n    ],\n    \"recommended_products\": [\n      {\n        \"mollit_7d\": -32542897.150512666,\n        \"eiusmod_c\": 66535973,\n        \"ind\": \"culpa non commodo\",\n        \"elitb2\": 6900161.872924969\n      },\n      {\n        \"irured\": true\n      }\n    ],\n    \"purchased_products\": [\n      {\n        \"in_a\": \"do\",\n        \"sunt7\": 38436307.12217748\n      },\n      {\n        \"aliquip_9\": -48557679\n      }\n    ],\n    \"customer_feedbacks\": [\n      {\n        \"Duis_663\": -23984453.296013266\n      },\n      {\n        \"in770\": \"fugiat eiusmod nisi est \",\n        \"consectetur_e8\": 64181316.80556777\n      }\n    ],\n    \"customer_support_tickets\": [\n      {\n        \"dolor1f\": 22784660.003464863,\n        \"exfcd\": -10874990,\n        \"mollit27c\": \"ullamco reprehenderit\"\n      },\n      {\n        \"minim3_\": 2616018.412312731,\n        \"et04\": -3830869\n      }\n    ],\n    \"number_of_sessions\": \"<long>\",\n    \"number_of_pages_visited\": \"<long>\",\n    \"time_spent_on_site\": \"<long>\",\n    \"visited_urls\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"visited_page_types\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"shopping_cart_value\": \"<long>\",\n    \"campaign_history\": [\n      {\n        \"ea_4_f\": \"cupidatat voluptate eiusmod\",\n        \"dolor55\": -50314797\n      },\n      {\n        \"voluptate09_\": 11758180,\n        \"officia_2a\": true\n      }\n    ],\n    \"referral_source\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"exit_intent\": [\n      {\n        \"dolor_7_d\": \"qui veniam mollit sed esse\",\n        \"nostrudb\": -49809087.337341264,\n        \"doloree\": \"consectetur Excepteu\"\n      },\n      {\n        \"do0\": 4620792.52120176,\n        \"tempor932\": \"culpa reprehenderit et enim ullamco\"\n      }\n    ],\n    \"inactivity_time\": \"<long>\",\n    \"industry\": \"<string>\",\n    \"company_size\": \"<integer>\",\n    \"number_of_employees\": \"<integer>\",\n    \"status_and_structure\": \"<string>\",\n    \"performance\": [\n      {\n        \"dolore_e\": true,\n        \"consecteture\": false,\n        \"pariatura\": -42164850.83244281\n      },\n      {\n        \"qui_37\": 48370763,\n        \"culpac\": \"nisi\"\n      }\n    ],\n    \"account_id\": \"<long>\",\n    \"workspace_id\": \"<long>\",\n    \"source_id\": \"<long>\",\n    \"source_type\": \"<string>\",\n    \"import_id\": \"<long>\",\n    \"archived\": \"<boolean>\",\n    \"email_status\": \"<string>\",\n    \"external_id\": \"<long>\",\n    \"first_visit\": \"<dateTime>\",\n    \"last_visit\": \"<dateTime>\",\n    \"number_of_visits\": \"<long>\",\n    \"previous_visit\": \"<dateTime>\",\n    \"status\": \"<integer>\",\n    \"subscribed_at\": \"<dateTime>\",\n    \"custom_fields\": [\n      {\n        \"iruref\": -33933715,\n        \"commodo9\": -13167212.788280785\n      },\n      {\n        \"et_a\": true,\n        \"sed_d\": -919751\n      }\n    ]\n  },\n  \"updateStrategy\": {\n    \"append\": \"in culpa \",\n    \"addition\": \"voluptate\",\n    \"override\": \"nulla et\"\n  }\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/v1/profiles/:id",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "v1",
+                        "profiles",
+                        ":id"
+                    ],
+                    "variable": [
+                        {
+                            "id": "b8d6b442-3a65-41d5-b88f-caff7e426a5b",
+                            "key": "id",
+                            "value": "54296675",
+                            "description": "(Required) Numeric ID of the profile to update"
+                        }
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "id": "8ee28e46-30e0-4e9a-9565-50411186fd44",
+                    "name": "Details about an updated profile",
+                    "originalRequest": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"profile\": {\n    \"visitor_id\": \"<string>\",\n    \"database_id\": \"<string>\",\n    \"facebook_id\": \"<string>\",\n    \"google_id\": \"<string>\",\n    \"current_funnel_stage\": \"<string>\",\n    \"profile_type\": \"<integer>\",\n    \"loyalty_point\": \"<long>\",\n    \"labels\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"segments\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"lead_score\": \"<long>\",\n    \"lead_score_change_history\": [\n      {\n        \"nulla_f1d\": true\n      },\n      {\n        \"minim_d\": false,\n        \"Duisa\": -68495357.86564127,\n        \"aliquip__\": true,\n        \"dolor_4a\": true\n      }\n    ],\n    \"created_date\": \"<dateTime>\",\n    \"updated_date\": \"<dateTime>\",\n    \"primary_email\": \"<string>\",\n    \"primary_phone_number\": \"<string>\",\n    \"first_name\": \"<string>\",\n    \"last_name\": \"<string>\",\n    \"full_name\": \"<string>\",\n    \"nickname\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"gender\": \"<integer>\",\n    \"age\": \"<integer>\",\n    \"date_of_birth\": \"<dateTime>\",\n    \"race\": \"<string>\",\n    \"religion\": \"<string>\",\n    \"nationality\": \"<string>\",\n    \"language\": \"<string>\",\n    \"timezone\": \"<string>\",\n    \"citizen_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"passport_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"additional_emails\": \"<string>\",\n    \"additional_phone_numbers\": \"<string>\",\n    \"social_network_profiles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"education_level\": \"<integer>\",\n    \"education_and_schools\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"family_status\": \"<integer>\",\n    \"job_titles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_names\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_aliases\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"credit_history\": [\n      {\n        \"cupidatat_5a3\": false\n      },\n      {\n        \"velit1\": -42441154.75183823,\n        \"ex66\": \"est voluptate occaecat\",\n        \"Ut_e9e\": \"et officia sed\",\n        \"elitb\": -75719643\n      }\n    ],\n    \"monthly_income\": \"<double>\",\n    \"annual_income\": \"<double>\",\n    \"number_of_dependants\": \"<integer>\",\n    \"number_of_open_credit_lines_and_loans\": \"<double>\",\n    \"number_real_estate_loans_or_lines\": \"<double>\",\n    \"lifestyles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"social_status\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"personality\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"hobbies\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"attitudes\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"interests\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"engaged_touch_points\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"reachable_media_channels\": [\n      {\n        \"ad_5b9\": -65047316,\n        \"irure_d\": \"occaecat culpa enim magna\"\n      },\n      {\n        \"dolore_d\": 81827810.45359647,\n        \"adipisicing_d7c\": \"pariatur dolore dolor Excepteur sit\"\n      }\n    ],\n    \"content_marketing_keywords\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"personal_problem_and_pain_points\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"solutions_for_customer\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"online_shopping_habits\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"timing_based_behaviour\": \"<string>\",\n    \"actions_taken_on_web_app\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"abandoned_cart\": [\n      {\n        \"pariatur68\": 73430964.86009869\n      },\n      {\n        \"ad000\": -16580964\n      }\n    ],\n    \"interested_products\": [\n      {\n        \"minim_602\": \"incididunt laboris dolor do\",\n        \"commodoe\": 50280636,\n        \"quia_9\": true\n      },\n      {\n        \"tempor4aa\": \"eu\",\n        \"etc7\": \"sed\"\n      }\n    ],\n    \"recommended_products\": [\n      {\n        \"Duisd\": false,\n        \"velite\": 93100815.2391985\n      },\n      {\n        \"reprehenderit_3\": 76236616\n      }\n    ],\n    \"purchased_products\": [\n      {\n        \"in40\": 96848486.65480986,\n        \"dolor8\": -48600388.367889956\n      },\n      {\n        \"deserunt_3a\": 45899099\n      }\n    ],\n    \"customer_feedbacks\": [\n      {\n        \"Excepteur4\": \"in minim sit\"\n      },\n      {\n        \"officia2f\": -62344327,\n        \"aliqua_cd\": false\n      }\n    ],\n    \"customer_support_tickets\": [\n      {\n        \"eiusmod_62\": \"qui do incididunt irure\"\n      },\n      {\n        \"adipisicing_5\": false\n      }\n    ],\n    \"number_of_sessions\": \"<long>\",\n    \"number_of_pages_visited\": \"<long>\",\n    \"time_spent_on_site\": \"<long>\",\n    \"visited_urls\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"visited_page_types\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"shopping_cart_value\": \"<long>\",\n    \"campaign_history\": [\n      {\n        \"Utc6_\": -36882155.44908866,\n        \"eu_84\": 30042404.784851357\n      },\n      {\n        \"dolored\": \"voluptate enim Lorem\"\n      }\n    ],\n    \"referral_source\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"exit_intent\": [\n      {\n        \"occaecat_dc\": 47631100.216380596\n      },\n      {\n        \"reprehenderit_e02\": true,\n        \"in_f1\": \"mollit laboris Ut ex\",\n        \"ut_13_\": \"aute ut\"\n      }\n    ],\n    \"inactivity_time\": \"<long>\",\n    \"industry\": \"<string>\",\n    \"company_size\": \"<integer>\",\n    \"number_of_employees\": \"<integer>\",\n    \"status_and_structure\": \"<string>\",\n    \"performance\": [\n      {\n        \"id_e07\": -89886130\n      },\n      {\n        \"Uta7\": -11606481\n      }\n    ],\n    \"account_id\": \"<long>\",\n    \"workspace_id\": \"<long>\",\n    \"source_id\": \"<long>\",\n    \"source_type\": \"<string>\",\n    \"import_id\": \"<long>\",\n    \"archived\": \"<boolean>\",\n    \"email_status\": \"<string>\",\n    \"external_id\": \"<long>\",\n    \"first_visit\": \"<dateTime>\",\n    \"last_visit\": \"<dateTime>\",\n    \"number_of_visits\": \"<long>\",\n    \"previous_visit\": \"<dateTime>\",\n    \"status\": \"<integer>\",\n    \"subscribed_at\": \"<dateTime>\",\n    \"custom_fields\": [\n      {\n        \"enim_d\": \"Ut amet\",\n        \"deserunt_9\": -3086132.5144180655\n      },\n      {\n        \"mollite4\": false,\n        \"exercitationb5a\": -28541743,\n        \"nisi708\": false\n      }\n    ]\n  },\n  \"updateStrategy\": {\n    \"append\": \"<string>\",\n    \"addition\": \"<string>\",\n    \"override\": \"<string>\"\n  }\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/v1/profiles/:id",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "v1",
+                                "profiles",
+                                ":id"
+                            ],
+                            "variable": [
+                                {
+                                    "key": "id",
+                                    "value": "54296675",
+                                    "description": "(Required) Numeric ID of the profile to update"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n  \"visitor_id\": \"<string>\",\n  \"database_id\": \"<string>\",\n  \"facebook_id\": \"<string>\",\n  \"google_id\": \"<string>\",\n  \"current_funnel_stage\": \"<string>\",\n  \"profile_type\": \"<integer>\",\n  \"loyalty_point\": \"<long>\",\n  \"labels\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"segments\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"lead_score\": \"<long>\",\n  \"lead_score_change_history\": [\n    {\n      \"id4\": 57431785.14063674\n    },\n    {\n      \"anima\": 12638865.16220975,\n      \"in_c\": -38013405,\n      \"nonc8\": false,\n      \"irure4\": \"mollit\",\n      \"ipsum5\": 79751053.75685039\n    }\n  ],\n  \"created_date\": \"<dateTime>\",\n  \"updated_date\": \"<dateTime>\",\n  \"primary_email\": \"<string>\",\n  \"primary_phone_number\": \"<string>\",\n  \"first_name\": \"<string>\",\n  \"last_name\": \"<string>\",\n  \"full_name\": \"<string>\",\n  \"nickname\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"gender\": \"<integer>\",\n  \"age\": \"<integer>\",\n  \"date_of_birth\": \"<dateTime>\",\n  \"race\": \"<string>\",\n  \"religion\": \"<string>\",\n  \"nationality\": \"<string>\",\n  \"language\": \"<string>\",\n  \"timezone\": \"<string>\",\n  \"citizen_ids\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"passport_ids\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"additional_emails\": \"<string>\",\n  \"additional_phone_numbers\": \"<string>\",\n  \"social_network_profiles\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"education_level\": \"<integer>\",\n  \"education_and_schools\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"family_status\": \"<integer>\",\n  \"job_titles\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"company_names\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"company_aliases\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"company_ids\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"credit_history\": [\n    {\n      \"ullamco_9\": false,\n      \"uta0\": \"cillum tempor fugiat\"\n    },\n    {\n      \"Lorem_353\": 99976561\n    }\n  ],\n  \"monthly_income\": \"<double>\",\n  \"annual_income\": \"<double>\",\n  \"number_of_dependants\": \"<integer>\",\n  \"number_of_open_credit_lines_and_loans\": \"<double>\",\n  \"number_real_estate_loans_or_lines\": \"<double>\",\n  \"lifestyles\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"social_status\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"personality\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"hobbies\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"attitudes\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"interests\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"engaged_touch_points\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"reachable_media_channels\": [\n    {\n      \"irurebe7\": -12626750\n    },\n    {\n      \"in_\": -46376914\n    }\n  ],\n  \"content_marketing_keywords\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"personal_problem_and_pain_points\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"solutions_for_customer\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"online_shopping_habits\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"timing_based_behaviour\": \"<string>\",\n  \"actions_taken_on_web_app\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"abandoned_cart\": [\n    {\n      \"nostrud965\": true,\n      \"culpaa\": false,\n      \"do_fb\": \"velit irure\"\n    },\n    {\n      \"idff4\": -2825422.7948362827,\n      \"dolore_183\": 92493754.46119729\n    }\n  ],\n  \"interested_products\": [\n    {\n      \"autedd\": \"voluptate sint\"\n    },\n    {\n      \"in848\": 83243679,\n      \"ea_113\": -46599300,\n      \"animb5\": -80513890\n    }\n  ],\n  \"recommended_products\": [\n    {\n      \"dolore__e\": \"reprehenderit veniam ut\"\n    },\n    {\n      \"voluptate4ba\": \"laboris in\",\n      \"quis_9\": 14352498.705777705,\n      \"Loremb\": -81022077.37197556\n    }\n  ],\n  \"purchased_products\": [\n    {\n      \"enim_3\": 57161123.65406722,\n      \"incididunt0a\": 79270044\n    },\n    {\n      \"sit102\": -55174366.208609715,\n      \"nullab0a\": \"cillum nulla\"\n    }\n  ],\n  \"customer_feedbacks\": [\n    {\n      \"enim_4e\": 1849701.7081557512\n    },\n    {\n      \"dolore_4\": -90952705.34732984\n    }\n  ],\n  \"customer_support_tickets\": [\n    {\n      \"irure_5db\": false,\n      \"consequat_76\": true\n    },\n    {\n      \"Duis_7b\": \"aliqua in dolore est\"\n    }\n  ],\n  \"number_of_sessions\": \"<long>\",\n  \"number_of_pages_visited\": \"<long>\",\n  \"time_spent_on_site\": \"<long>\",\n  \"visited_urls\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"visited_page_types\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"shopping_cart_value\": \"<long>\",\n  \"campaign_history\": [\n    {\n      \"laborea\": 58621691,\n      \"in_7\": \"occaec\",\n      \"seda6\": 54007261.49818635\n    },\n    {\n      \"incididunt_0a\": true,\n      \"exercitation749\": -73081348\n    }\n  ],\n  \"referral_source\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"exit_intent\": [\n    {\n      \"essee37\": \"in Duis\"\n    },\n    {\n      \"autec7\": \"labore magna nostrud qui\"\n    }\n  ],\n  \"inactivity_time\": \"<long>\",\n  \"industry\": \"<string>\",\n  \"company_size\": \"<integer>\",\n  \"number_of_employees\": \"<integer>\",\n  \"status_and_structure\": \"<string>\",\n  \"performance\": [\n    {\n      \"veniam_fbd\": 61855012,\n      \"dolore_bc0\": \"est offi\",\n      \"Ute\": 53509348.18130097,\n      \"culpa3\": \"dolor nostrud anim ullamco\"\n    },\n    {\n      \"ipsum_7\": 22989172.350619078,\n      \"consectetur_33\": false\n    }\n  ],\n  \"account_id\": \"<long>\",\n  \"workspace_id\": \"<long>\",\n  \"source_id\": \"<long>\",\n  \"source_type\": \"<string>\",\n  \"import_id\": \"<long>\",\n  \"archived\": \"<boolean>\",\n  \"email_status\": \"<string>\",\n  \"external_id\": \"<long>\",\n  \"first_visit\": \"<dateTime>\",\n  \"last_visit\": \"<dateTime>\",\n  \"number_of_visits\": \"<long>\",\n  \"previous_visit\": \"<dateTime>\",\n  \"status\": \"<integer>\",\n  \"subscribed_at\": \"<dateTime>\",\n  \"custom_fields\": [\n    {\n      \"ea_adc\": true,\n      \"nisif\": false,\n      \"mollit_441\": -3308525.163740754\n    },\n    {\n      \"ut8\": true\n    }\n  ]\n}"
+                },
+                {
+                    "id": "83530692-532e-483b-b142-b8e3532ee732",
+                    "name": "Unexpected error",
+                    "originalRequest": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"profile\": {\n    \"visitor_id\": \"<string>\",\n    \"database_id\": \"<string>\",\n    \"facebook_id\": \"<string>\",\n    \"google_id\": \"<string>\",\n    \"current_funnel_stage\": \"<string>\",\n    \"profile_type\": \"<integer>\",\n    \"loyalty_point\": \"<long>\",\n    \"labels\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"segments\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"lead_score\": \"<long>\",\n    \"lead_score_change_history\": [\n      {\n        \"nulla_f1d\": true\n      },\n      {\n        \"minim_d\": false,\n        \"Duisa\": -68495357.86564127,\n        \"aliquip__\": true,\n        \"dolor_4a\": true\n      }\n    ],\n    \"created_date\": \"<dateTime>\",\n    \"updated_date\": \"<dateTime>\",\n    \"primary_email\": \"<string>\",\n    \"primary_phone_number\": \"<string>\",\n    \"first_name\": \"<string>\",\n    \"last_name\": \"<string>\",\n    \"full_name\": \"<string>\",\n    \"nickname\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"gender\": \"<integer>\",\n    \"age\": \"<integer>\",\n    \"date_of_birth\": \"<dateTime>\",\n    \"race\": \"<string>\",\n    \"religion\": \"<string>\",\n    \"nationality\": \"<string>\",\n    \"language\": \"<string>\",\n    \"timezone\": \"<string>\",\n    \"citizen_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"passport_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"additional_emails\": \"<string>\",\n    \"additional_phone_numbers\": \"<string>\",\n    \"social_network_profiles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"education_level\": \"<integer>\",\n    \"education_and_schools\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"family_status\": \"<integer>\",\n    \"job_titles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_names\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_aliases\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"credit_history\": [\n      {\n        \"cupidatat_5a3\": false\n      },\n      {\n        \"velit1\": -42441154.75183823,\n        \"ex66\": \"est voluptate occaecat\",\n        \"Ut_e9e\": \"et officia sed\",\n        \"elitb\": -75719643\n      }\n    ],\n    \"monthly_income\": \"<double>\",\n    \"annual_income\": \"<double>\",\n    \"number_of_dependants\": \"<integer>\",\n    \"number_of_open_credit_lines_and_loans\": \"<double>\",\n    \"number_real_estate_loans_or_lines\": \"<double>\",\n    \"lifestyles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"social_status\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"personality\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"hobbies\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"attitudes\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"interests\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"engaged_touch_points\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"reachable_media_channels\": [\n      {\n        \"ad_5b9\": -65047316,\n        \"irure_d\": \"occaecat culpa enim magna\"\n      },\n      {\n        \"dolore_d\": 81827810.45359647,\n        \"adipisicing_d7c\": \"pariatur dolore dolor Excepteur sit\"\n      }\n    ],\n    \"content_marketing_keywords\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"personal_problem_and_pain_points\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"solutions_for_customer\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"online_shopping_habits\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"timing_based_behaviour\": \"<string>\",\n    \"actions_taken_on_web_app\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"abandoned_cart\": [\n      {\n        \"pariatur68\": 73430964.86009869\n      },\n      {\n        \"ad000\": -16580964\n      }\n    ],\n    \"interested_products\": [\n      {\n        \"minim_602\": \"incididunt laboris dolor do\",\n        \"commodoe\": 50280636,\n        \"quia_9\": true\n      },\n      {\n        \"tempor4aa\": \"eu\",\n        \"etc7\": \"sed\"\n      }\n    ],\n    \"recommended_products\": [\n      {\n        \"Duisd\": false,\n        \"velite\": 93100815.2391985\n      },\n      {\n        \"reprehenderit_3\": 76236616\n      }\n    ],\n    \"purchased_products\": [\n      {\n        \"in40\": 96848486.65480986,\n        \"dolor8\": -48600388.367889956\n      },\n      {\n        \"deserunt_3a\": 45899099\n      }\n    ],\n    \"customer_feedbacks\": [\n      {\n        \"Excepteur4\": \"in minim sit\"\n      },\n      {\n        \"officia2f\": -62344327,\n        \"aliqua_cd\": false\n      }\n    ],\n    \"customer_support_tickets\": [\n      {\n        \"eiusmod_62\": \"qui do incididunt irure\"\n      },\n      {\n        \"adipisicing_5\": false\n      }\n    ],\n    \"number_of_sessions\": \"<long>\",\n    \"number_of_pages_visited\": \"<long>\",\n    \"time_spent_on_site\": \"<long>\",\n    \"visited_urls\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"visited_page_types\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"shopping_cart_value\": \"<long>\",\n    \"campaign_history\": [\n      {\n        \"Utc6_\": -36882155.44908866,\n        \"eu_84\": 30042404.784851357\n      },\n      {\n        \"dolored\": \"voluptate enim Lorem\"\n      }\n    ],\n    \"referral_source\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"exit_intent\": [\n      {\n        \"occaecat_dc\": 47631100.216380596\n      },\n      {\n        \"reprehenderit_e02\": true,\n        \"in_f1\": \"mollit laboris Ut ex\",\n        \"ut_13_\": \"aute ut\"\n      }\n    ],\n    \"inactivity_time\": \"<long>\",\n    \"industry\": \"<string>\",\n    \"company_size\": \"<integer>\",\n    \"number_of_employees\": \"<integer>\",\n    \"status_and_structure\": \"<string>\",\n    \"performance\": [\n      {\n        \"id_e07\": -89886130\n      },\n      {\n        \"Uta7\": -11606481\n      }\n    ],\n    \"account_id\": \"<long>\",\n    \"workspace_id\": \"<long>\",\n    \"source_id\": \"<long>\",\n    \"source_type\": \"<string>\",\n    \"import_id\": \"<long>\",\n    \"archived\": \"<boolean>\",\n    \"email_status\": \"<string>\",\n    \"external_id\": \"<long>\",\n    \"first_visit\": \"<dateTime>\",\n    \"last_visit\": \"<dateTime>\",\n    \"number_of_visits\": \"<long>\",\n    \"previous_visit\": \"<dateTime>\",\n    \"status\": \"<integer>\",\n    \"subscribed_at\": \"<dateTime>\",\n    \"custom_fields\": [\n      {\n        \"enim_d\": \"Ut amet\",\n        \"deserunt_9\": -3086132.5144180655\n      },\n      {\n        \"mollite4\": false,\n        \"exercitationb5a\": -28541743,\n        \"nisi708\": false\n      }\n    ]\n  },\n  \"updateStrategy\": {\n    \"append\": \"<string>\",\n    \"addition\": \"<string>\",\n    \"override\": \"<string>\"\n  }\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/v1/profiles/:id",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "v1",
+                                "profiles",
+                                ":id"
+                            ],
+                            "variable": [
+                                {
+                                    "key": "id",
+                                    "value": "54296675",
+                                    "description": "(Required) Numeric ID of the profile to update"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n  \"code\": \"<integer>\",\n  \"message\": \"<string>\"\n}"
+                }
+            ]
+        },
+        {
+            "name": "Delete a profile",
+            "id": "e28ab5da-bc1a-4fe2-84bd-991952f3b764",
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{baseUrl}}/v1/profiles/:id",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "v1",
+                        "profiles",
+                        ":id"
+                    ],
+                    "variable": [
+                        {
+                            "id": "08e7f502-ec6c-4c44-9449-01f5141c3aa0",
+                            "key": "id",
+                            "value": "54296675",
+                            "description": "(Required) Numeric ID of the profile to delete"
+                        }
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "id": "7c5cc0ba-b113-4643-a570-5ab7c72a3bf1",
+                    "name": "Empty object",
+                    "originalRequest": {
+                        "method": "DELETE",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/v1/profiles/:id",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "v1",
+                                "profiles",
+                                ":id"
+                            ],
+                            "variable": [
+                                {
+                                    "key": "id",
+                                    "value": "54296675",
+                                    "description": "(Required) Numeric ID of the profile to delete"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "null"
+                },
+                {
+                    "id": "c9c9f7d2-936b-4d86-9728-5898f269d9cb",
+                    "name": "Unexpected error",
+                    "originalRequest": {
+                        "method": "DELETE",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/v1/profiles/:id",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "v1",
+                                "profiles",
+                                ":id"
+                            ],
+                            "variable": [
+                                {
+                                    "key": "id",
+                                    "value": "54296675",
+                                    "description": "(Required) Numeric ID of the profile to delete"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n  \"code\": \"<integer>\",\n  \"message\": \"<string>\"\n}"
+                }
+            ]
+        },
+        {
+            "name": "Retrieves the number of profiles which satisfy condition",
+            "id": "1fa6a05c-c4ac-4ac9-8326-4e96bcc96bf0",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"type\": \"minim Lor\",\n  \"parameterValues\": {\n    \"fugiat_d3\": 62926803.62786353,\n    \"nostrud_6\": -78315968,\n    \"commodoc75\": true\n  }\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/v1/profiles/count",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "v1",
+                        "profiles",
+                        "count"
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "id": "fc8f5386-0ab4-4feb-9405-01652ad4ed6b",
+                    "name": "The number of profiles which satisfy condition",
+                    "originalRequest": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"type\": \"<string>\",\n  \"parameterValues\": {\n    \"ullamco_b\": true\n  }\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/v1/profiles/count",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "v1",
+                                "profiles",
+                                "count"
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n  \"number\": \"<integer>\"\n}"
+                }
+            ]
+        },
+        {
+            "name": "Retrieves profiles matching the specified query.",
+            "id": "03400ac2-53de-4f83-b11b-6253d8fca31f",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"offset\": 64846541,\n  \"limit\": 40200276,\n  \"sortBy\": \"et Excepteur qui\",\n  \"text\": \"dolore\",\n  \"foreceRefresh\": false,\n  \"condition\": [\n    {\n      \"type\": \"<string>\",\n      \"parameterValues\": {\n        \"ex_67b\": \"esse consectetu\",\n        \"exercitationa\": -33287395.500058062\n      }\n    },\n    {\n      \"type\": \"<string>\",\n      \"parameterValues\": {\n        \"Excepteur3_7\": -83008705.00275606\n      }\n    }\n  ]\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/v1/profiles/search",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "v1",
+                        "profiles",
+                        "search"
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "id": "7e06e994-7e55-44bd-bb4f-d438757de745",
+                    "name": "Profile list which satisfies condition",
+                    "originalRequest": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"offset\": \"<integer>\",\n  \"limit\": \"<integer>\",\n  \"sortBy\": \"<string>\",\n  \"text\": \"<string>\",\n  \"foreceRefresh\": \"<boolean>\",\n  \"condition\": [\n    {\n      \"type\": \"<string>\",\n      \"parameterValues\": {\n        \"reprehenderite\": -30470996\n      }\n    },\n    {\n      \"type\": \"<string>\",\n      \"parameterValues\": {\n        \"cillum_8a\": 42800647.91346741\n      }\n    }\n  ]\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/v1/profiles/search",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "v1",
+                                "profiles",
+                                "search"
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n  \"offset\": \"<integer>\",\n  \"pageSize\": \"<integer>\",\n  \"totalSize\": \"<integer>\",\n  \"scrollIdentifier\": \"<string>\",\n  \"scrollTimeValidity\": \"<string>\",\n  \"totalSizeRelation\": \"<string>\",\n  \"list\": [\n    {\n      \"visitor_id\": \"<string>\",\n      \"database_id\": \"<string>\",\n      \"facebook_id\": \"<string>\",\n      \"google_id\": \"<string>\",\n      \"current_funnel_stage\": \"<string>\",\n      \"profile_type\": \"<integer>\",\n      \"loyalty_point\": \"<long>\",\n      \"labels\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"segments\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"lead_score\": \"<long>\",\n      \"lead_score_change_history\": [\n        {\n          \"culpa6\": 17962961.882845536,\n          \"ullamco_7\": 76777564,\n          \"nisi_90\": \"aute culpa\"\n        },\n        {\n          \"dolor_8ba\": \"in ea\",\n          \"nulla_5\": 61585181,\n          \"aliqua7\": -6005646.088781893\n        }\n      ],\n      \"created_date\": \"<dateTime>\",\n      \"updated_date\": \"<dateTime>\",\n      \"primary_email\": \"<string>\",\n      \"primary_phone_number\": \"<string>\",\n      \"first_name\": \"<string>\",\n      \"last_name\": \"<string>\",\n      \"full_name\": \"<string>\",\n      \"nickname\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"gender\": \"<integer>\",\n      \"age\": \"<integer>\",\n      \"date_of_birth\": \"<dateTime>\",\n      \"race\": \"<string>\",\n      \"religion\": \"<string>\",\n      \"nationality\": \"<string>\",\n      \"language\": \"<string>\",\n      \"timezone\": \"<string>\",\n      \"citizen_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"passport_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"additional_emails\": \"<string>\",\n      \"additional_phone_numbers\": \"<string>\",\n      \"social_network_profiles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"education_level\": \"<integer>\",\n      \"education_and_schools\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"family_status\": \"<integer>\",\n      \"job_titles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_names\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_aliases\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"credit_history\": [\n        {\n          \"ad0\": \"laborum cillum ex Ut Duis\",\n          \"sit6f\": true\n        },\n        {\n          \"cillum4\": 22371080.562738627,\n          \"qui_8be\": \"qui occaecat quis ut\"\n        }\n      ],\n      \"monthly_income\": \"<double>\",\n      \"annual_income\": \"<double>\",\n      \"number_of_dependants\": \"<integer>\",\n      \"number_of_open_credit_lines_and_loans\": \"<double>\",\n      \"number_real_estate_loans_or_lines\": \"<double>\",\n      \"lifestyles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"social_status\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"personality\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"hobbies\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"attitudes\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"interests\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"engaged_touch_points\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"reachable_media_channels\": [\n        {\n          \"velit_f6e\": 65002230.891720116,\n          \"adipisicing4b5\": false,\n          \"proident_fbb\": false\n        },\n        {\n          \"deserunt_6e6\": \"et reprehenderit ad sed\",\n          \"sit_e29\": -98002306.38963425,\n          \"sed_811\": true\n        }\n      ],\n      \"content_marketing_keywords\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"personal_problem_and_pain_points\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"solutions_for_customer\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"online_shopping_habits\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"timing_based_behaviour\": \"<string>\",\n      \"actions_taken_on_web_app\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"abandoned_cart\": [\n        {\n          \"in4\": true\n        },\n        {\n          \"ut_da\": 68081829.63303229,\n          \"cillum9b9\": -56412216\n        }\n      ],\n      \"interested_products\": [\n        {\n          \"nulla1b\": true,\n          \"in_d\": false\n        },\n        {\n          \"laboris_93d\": 78105932.50174266\n        }\n      ],\n      \"recommended_products\": [\n        {\n          \"aliquipc\": \"officia minim aute non\"\n        },\n        {\n          \"exercitation141\": -81090362.51820135,\n          \"nisi_d1\": 92295710,\n          \"Duisb3\": 50563465.086215764\n        }\n      ],\n      \"purchased_products\": [\n        {\n          \"laborum_8\": \"nisi consectetur Duis quis est\"\n        },\n        {\n          \"irurec7\": 72890645\n        }\n      ],\n      \"customer_feedbacks\": [\n        {\n          \"deserunt_5b3\": -74325151\n        },\n        {\n          \"in_6\": false,\n          \"voluptatee3\": true,\n          \"fugiat_c2_\": true\n        }\n      ],\n      \"customer_support_tickets\": [\n        {\n          \"consectetur_d1c\": -31087042,\n          \"minim0c\": 90282870\n        },\n        {\n          \"id_bf9\": \"reprehenderit elit\"\n        }\n      ],\n      \"number_of_sessions\": \"<long>\",\n      \"number_of_pages_visited\": \"<long>\",\n      \"time_spent_on_site\": \"<long>\",\n      \"visited_urls\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"visited_page_types\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"shopping_cart_value\": \"<long>\",\n      \"campaign_history\": [\n        {\n          \"ut_b9b\": false,\n          \"in68\": 46221906\n        },\n        {\n          \"ametbc\": -2020066.1341584623,\n          \"laboris_a4\": false\n        }\n      ],\n      \"referral_source\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"exit_intent\": [\n        {\n          \"culpa_6\": true\n        },\n        {\n          \"anim_b2\": \"fugiat sunt\",\n          \"sit_df\": -84412371.60851562\n        }\n      ],\n      \"inactivity_time\": \"<long>\",\n      \"industry\": \"<string>\",\n      \"company_size\": \"<integer>\",\n      \"number_of_employees\": \"<integer>\",\n      \"status_and_structure\": \"<string>\",\n      \"performance\": [\n        {\n          \"quis_5\": 32860031\n        },\n        {\n          \"ine\": 5391691.279348046\n        }\n      ],\n      \"account_id\": \"<long>\",\n      \"workspace_id\": \"<long>\",\n      \"source_id\": \"<long>\",\n      \"source_type\": \"<string>\",\n      \"import_id\": \"<long>\",\n      \"archived\": \"<boolean>\",\n      \"email_status\": \"<string>\",\n      \"external_id\": \"<long>\",\n      \"first_visit\": \"<dateTime>\",\n      \"last_visit\": \"<dateTime>\",\n      \"number_of_visits\": \"<long>\",\n      \"previous_visit\": \"<dateTime>\",\n      \"status\": \"<integer>\",\n      \"subscribed_at\": \"<dateTime>\",\n      \"custom_fields\": [\n        {\n          \"dolore_a40\": \"reprehenderit in mollit Lorem proident\",\n          \"minim_8b\": 90162321.9747493\n        },\n        {\n          \"deseruntf\": \"minim non officia\",\n          \"officia_ad\": -45409006.1609064\n        }\n      ]\n    },\n    {\n      \"visitor_id\": \"<string>\",\n      \"database_id\": \"<string>\",\n      \"facebook_id\": \"<string>\",\n      \"google_id\": \"<string>\",\n      \"current_funnel_stage\": \"<string>\",\n      \"profile_type\": \"<integer>\",\n      \"loyalty_point\": \"<long>\",\n      \"labels\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"segments\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"lead_score\": \"<long>\",\n      \"lead_score_change_history\": [\n        {\n          \"consequat9\": -87018578.22156641,\n          \"laboris_590\": \"dolor Ut minim\"\n        },\n        {\n          \"sint_e\": \"eiusmod amet laboris consequat\",\n          \"laboris53\": false\n        }\n      ],\n      \"created_date\": \"<dateTime>\",\n      \"updated_date\": \"<dateTime>\",\n      \"primary_email\": \"<string>\",\n      \"primary_phone_number\": \"<string>\",\n      \"first_name\": \"<string>\",\n      \"last_name\": \"<string>\",\n      \"full_name\": \"<string>\",\n      \"nickname\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"gender\": \"<integer>\",\n      \"age\": \"<integer>\",\n      \"date_of_birth\": \"<dateTime>\",\n      \"race\": \"<string>\",\n      \"religion\": \"<string>\",\n      \"nationality\": \"<string>\",\n      \"language\": \"<string>\",\n      \"timezone\": \"<string>\",\n      \"citizen_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"passport_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"additional_emails\": \"<string>\",\n      \"additional_phone_numbers\": \"<string>\",\n      \"social_network_profiles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"education_level\": \"<integer>\",\n      \"education_and_schools\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"family_status\": \"<integer>\",\n      \"job_titles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_names\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_aliases\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"credit_history\": [\n        {\n          \"fugiat_9\": 77138100.03083551\n        },\n        {\n          \"magna_18\": 65599979,\n          \"dolor_9_\": true\n        }\n      ],\n      \"monthly_income\": \"<double>\",\n      \"annual_income\": \"<double>\",\n      \"number_of_dependants\": \"<integer>\",\n      \"number_of_open_credit_lines_and_loans\": \"<double>\",\n      \"number_real_estate_loans_or_lines\": \"<double>\",\n      \"lifestyles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"social_status\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"personality\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"hobbies\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"attitudes\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"interests\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"engaged_touch_points\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"reachable_media_channels\": [\n        {\n          \"in5e\": -99242035\n        },\n        {\n          \"dolore_d\": \"dolore consequat\",\n          \"velitda\": -3239792\n        }\n      ],\n      \"content_marketing_keywords\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"personal_problem_and_pain_points\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"solutions_for_customer\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"online_shopping_habits\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"timing_based_behaviour\": \"<string>\",\n      \"actions_taken_on_web_app\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"abandoned_cart\": [\n        {\n          \"non8\": -42728872.42721817,\n          \"cillum_212\": 88373893,\n          \"aliqua904\": false\n        },\n        {\n          \"eiusmod_1e\": true,\n          \"aliquipbb\": -53507682\n        }\n      ],\n      \"interested_products\": [\n        {\n          \"nisi_351\": false\n        },\n        {\n          \"est_e5\": -27004215.74674107\n        }\n      ],\n      \"recommended_products\": [\n        {\n          \"dolore_\": -82593921,\n          \"id_d7\": -697306.7628473788,\n          \"pariatur_5\": -256005\n        },\n        {\n          \"ullamco_bd\": false,\n          \"exercitation25\": -44450021,\n          \"cillum2e2\": \"sed ex laboris\"\n        }\n      ],\n      \"purchased_products\": [\n        {\n          \"adipisicinga01\": -52644053,\n          \"est_3b6\": false,\n          \"Excepteurfa5\": -97629319.98523165\n        },\n        {\n          \"dolore_9\": 96704749.03811818,\n          \"officia60\": -31593432.335012123\n        }\n      ],\n      \"customer_feedbacks\": [\n        {\n          \"mollit_1\": \"do ex\",\n          \"labore718\": 88459744\n        },\n        {\n          \"incididunt2f\": 95665800.41450652\n        }\n      ],\n      \"customer_support_tickets\": [\n        {\n          \"eiusmodb\": 43157799.614686936\n        },\n        {\n          \"eue4\": 80073867.84426755,\n          \"adf\": \"sit ullamco ex eiusmod\"\n        }\n      ],\n      \"number_of_sessions\": \"<long>\",\n      \"number_of_pages_visited\": \"<long>\",\n      \"time_spent_on_site\": \"<long>\",\n      \"visited_urls\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"visited_page_types\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"shopping_cart_value\": \"<long>\",\n      \"campaign_history\": [\n        {\n          \"qui2\": -71287576.57415697,\n          \"reprehenderit_5e5\": 17599738.324887723,\n          \"dolor_aa\": 28294036.758139417\n        },\n        {\n          \"sintc\": -72210451,\n          \"commodo_0_\": \"incididunt in sit\",\n          \"irure_cb\": -95758176.2693971\n        }\n      ],\n      \"referral_source\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"exit_intent\": [\n        {\n          \"cillum_1\": true,\n          \"aliquip0f9\": -64807411.25598293\n        },\n        {\n          \"sit_0d\": \"sed enim Lorem culpa fugiat\"\n        }\n      ],\n      \"inactivity_time\": \"<long>\",\n      \"industry\": \"<string>\",\n      \"company_size\": \"<integer>\",\n      \"number_of_employees\": \"<integer>\",\n      \"status_and_structure\": \"<string>\",\n      \"performance\": [\n        {\n          \"in__\": 20560862,\n          \"dolore4\": false,\n          \"voluptate53\": true,\n          \"exercitation7e1\": \"reprehenderit exercitation ea dolor non\"\n        },\n        {\n          \"esse_5\": true,\n          \"velit9e\": -86897396\n        }\n      ],\n      \"account_id\": \"<long>\",\n      \"workspace_id\": \"<long>\",\n      \"source_id\": \"<long>\",\n      \"source_type\": \"<string>\",\n      \"import_id\": \"<long>\",\n      \"archived\": \"<boolean>\",\n      \"email_status\": \"<string>\",\n      \"external_id\": \"<long>\",\n      \"first_visit\": \"<dateTime>\",\n      \"last_visit\": \"<dateTime>\",\n      \"number_of_visits\": \"<long>\",\n      \"previous_visit\": \"<dateTime>\",\n      \"status\": \"<integer>\",\n      \"subscribed_at\": \"<dateTime>\",\n      \"custom_fields\": [\n        {\n          \"ad_db\": \"elit\",\n          \"aute40\": \"tempor magna reprehenderit\"\n        },\n        {\n          \"amet_54\": false\n        }\n      ]\n    }\n  ]\n}"
+                },
+                {
+                    "id": "50672af5-ea67-43f2-8652-9924a201564f",
+                    "name": "Unexpected error",
+                    "originalRequest": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"offset\": \"<integer>\",\n  \"limit\": \"<integer>\",\n  \"sortBy\": \"<string>\",\n  \"text\": \"<string>\",\n  \"foreceRefresh\": \"<boolean>\",\n  \"condition\": [\n    {\n      \"type\": \"<string>\",\n      \"parameterValues\": {\n        \"reprehenderite\": -30470996\n      }\n    },\n    {\n      \"type\": \"<string>\",\n      \"parameterValues\": {\n        \"cillum_8a\": 42800647.91346741\n      }\n    }\n  ]\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/v1/profiles/search",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "v1",
+                                "profiles",
+                                "search"
+                            ]
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n  \"code\": \"<integer>\",\n  \"message\": \"<string>\"\n}"
+                }
+            ]
+        },
+        {
+            "name": "Batch update profiles by condition specification",
+            "id": "a93e7863-3cde-40c9-af0e-124942de547b",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"updatedProperties\": {\n    \"properties\": [\n      {\n        \"propertyName\": \"deserunt elit officia labore qui\",\n        \"propertyValue\": {}\n      },\n      {\n        \"propertyName\": \"tempor\",\n        \"propertyValue\": {}\n      }\n    ],\n    \"updateStrategy\": {\n      \"append\": \"<string>\",\n      \"addition\": \"<string>\",\n      \"override\": \"<string>\"\n    }\n  },\n  \"condition\": {\n    \"type\": \"<string>\",\n    \"parameterValues\": {\n      \"sunt_e6\": -64546640,\n      \"pariatur16\": 59611573\n    }\n  }\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/v1/profiles/batchUpdateByCondition",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "v1",
+                        "profiles",
+                        "batchUpdateByCondition"
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "id": "47aff902-e971-4cdc-af00-62768b52dc9a",
+                    "name": "Empty object",
+                    "originalRequest": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"updatedProperties\": {\n    \"properties\": [\n      {\n        \"propertyName\": \"<string>\",\n        \"propertyValue\": \"<object>\"\n      },\n      {\n        \"propertyName\": \"<string>\",\n        \"propertyValue\": \"<object>\"\n      }\n    ],\n    \"updateStrategy\": {\n      \"append\": \"<string>\",\n      \"addition\": \"<string>\",\n      \"override\": \"<string>\"\n    }\n  },\n  \"condition\": {\n    \"type\": \"<string>\",\n    \"parameterValues\": {\n      \"quis_b4e\": true,\n      \"proident_56\": 62218178,\n      \"ut_5d\": \"laborum cillum mo\"\n    }\n  }\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/v1/profiles/batchUpdateByCondition",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "v1",
+                                "profiles",
+                                "batchUpdateByCondition"
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "null"
+                }
+            ]
+        },
+        {
+            "name": "Batch update profiles specification",
+            "id": "ff217614-8753-4517-b5bc-d329c627185d",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "[\n  {\n    \"profile\": {\n      \"visitor_id\": \"<string>\",\n      \"database_id\": \"<string>\",\n      \"facebook_id\": \"<string>\",\n      \"google_id\": \"<string>\",\n      \"current_funnel_stage\": \"<string>\",\n      \"profile_type\": \"<integer>\",\n      \"loyalty_point\": \"<long>\",\n      \"labels\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"segments\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"lead_score\": \"<long>\",\n      \"lead_score_change_history\": [\n        {\n          \"exe9\": 29898399.82612157,\n          \"dolore_c2\": \"nostrud in\",\n          \"irure246\": -42527491\n        },\n        {\n          \"ex008\": \"aute occaecat velit Lorem\"\n        }\n      ],\n      \"created_date\": \"<dateTime>\",\n      \"updated_date\": \"<dateTime>\",\n      \"primary_email\": \"<string>\",\n      \"primary_phone_number\": \"<string>\",\n      \"first_name\": \"<string>\",\n      \"last_name\": \"<string>\",\n      \"full_name\": \"<string>\",\n      \"nickname\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"gender\": \"<integer>\",\n      \"age\": \"<integer>\",\n      \"date_of_birth\": \"<dateTime>\",\n      \"race\": \"<string>\",\n      \"religion\": \"<string>\",\n      \"nationality\": \"<string>\",\n      \"language\": \"<string>\",\n      \"timezone\": \"<string>\",\n      \"citizen_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"passport_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"additional_emails\": \"<string>\",\n      \"additional_phone_numbers\": \"<string>\",\n      \"social_network_profiles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"education_level\": \"<integer>\",\n      \"education_and_schools\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"family_status\": \"<integer>\",\n      \"job_titles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_names\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_aliases\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"credit_history\": [\n        {\n          \"dolor_92\": 8290058,\n          \"do__85\": false,\n          \"dolor__8\": true,\n          \"exercitation_68\": -27875963\n        },\n        {\n          \"deseruntf18\": \"voluptate Duis eu\"\n        }\n      ],\n      \"monthly_income\": \"<double>\",\n      \"annual_income\": \"<double>\",\n      \"number_of_dependants\": \"<integer>\",\n      \"number_of_open_credit_lines_and_loans\": \"<double>\",\n      \"number_real_estate_loans_or_lines\": \"<double>\",\n      \"lifestyles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"social_status\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"personality\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"hobbies\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"attitudes\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"interests\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"engaged_touch_points\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"reachable_media_channels\": [\n        {\n          \"ut_\": 27244624,\n          \"in_\": -47265862\n        },\n        {\n          \"incididunt_b6\": true,\n          \"labore7\": false,\n          \"ullamcofb\": -35304170\n        }\n      ],\n      \"content_marketing_keywords\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"personal_problem_and_pain_points\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"solutions_for_customer\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"online_shopping_habits\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"timing_based_behaviour\": \"<string>\",\n      \"actions_taken_on_web_app\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"abandoned_cart\": [\n        {\n          \"Ut_6\": -10447882\n        },\n        {\n          \"sed_49\": true,\n          \"pariaturc3\": -87633528.02254643\n        }\n      ],\n      \"interested_products\": [\n        {\n          \"culpa41\": -26503137.083920643,\n          \"laboris13\": true\n        },\n        {\n          \"ut_195\": \"sed non do\",\n          \"Lorem_1_\": true,\n          \"mollit_89\": 68757548\n        }\n      ],\n      \"recommended_products\": [\n        {\n          \"Lorem_6c\": 56566775.966139466\n        },\n        {\n          \"pariatur_b\": 21849702.997200638\n        }\n      ],\n      \"purchased_products\": [\n        {\n          \"sunt213\": \"laborum qui voluptate\"\n        },\n        {\n          \"veniamb6\": false\n        }\n      ],\n      \"customer_feedbacks\": [\n        {\n          \"cillum_28\": false\n        },\n        {\n          \"officia_1\": false,\n          \"cupidatat_6\": \"laboris amet pariatur in\",\n          \"Duis5\": 76001054\n        }\n      ],\n      \"customer_support_tickets\": [\n        {\n          \"cupidatatb\": -6731482.187352404,\n          \"qui_5\": 17977576\n        },\n        {\n          \"laborum__6_\": -17712541\n        }\n      ],\n      \"number_of_sessions\": \"<long>\",\n      \"number_of_pages_visited\": \"<long>\",\n      \"time_spent_on_site\": \"<long>\",\n      \"visited_urls\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"visited_page_types\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"shopping_cart_value\": \"<long>\",\n      \"campaign_history\": [\n        {\n          \"officiad\": -1122770.798101455,\n          \"est_c\": -53422828.57517073,\n          \"irure_86\": -26173295.012811646\n        },\n        {\n          \"sunt_f33\": -93732050.70258974,\n          \"cilluma\": \"consectetur Excepteur veniam enim deserunt\"\n        }\n      ],\n      \"referral_source\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"exit_intent\": [\n        {\n          \"aute6ac\": \"sunt esse incididunt aliquip occaecat\"\n        },\n        {\n          \"sunt_f\": false,\n          \"aliquipf\": 12781426\n        }\n      ],\n      \"inactivity_time\": \"<long>\",\n      \"industry\": \"<string>\",\n      \"company_size\": \"<integer>\",\n      \"number_of_employees\": \"<integer>\",\n      \"status_and_structure\": \"<string>\",\n      \"performance\": [\n        {\n          \"fugiat_158\": true,\n          \"adipisicing_b\": -26548416.748480946,\n          \"veniam_01\": \"quis eiusmod\"\n        },\n        {\n          \"nisi_0\": \"ea exercitation sint sed\",\n          \"do6f\": true,\n          \"do_\": 4588292,\n          \"site73\": false\n        }\n      ],\n      \"account_id\": \"<long>\",\n      \"workspace_id\": \"<long>\",\n      \"source_id\": \"<long>\",\n      \"source_type\": \"<string>\",\n      \"import_id\": \"<long>\",\n      \"archived\": \"<boolean>\",\n      \"email_status\": \"<string>\",\n      \"external_id\": \"<long>\",\n      \"first_visit\": \"<dateTime>\",\n      \"last_visit\": \"<dateTime>\",\n      \"number_of_visits\": \"<long>\",\n      \"previous_visit\": \"<dateTime>\",\n      \"status\": \"<integer>\",\n      \"subscribed_at\": \"<dateTime>\",\n      \"custom_fields\": [\n        {\n          \"autec7\": -28058966.727914527\n        },\n        {\n          \"dolore__\": \"veniam cupidatat\"\n        }\n      ]\n    },\n    \"updateStrategy\": {\n      \"append\": \"<string>\",\n      \"addition\": \"<string>\",\n      \"override\": \"<string>\"\n    }\n  },\n  {\n    \"profile\": {\n      \"visitor_id\": \"<string>\",\n      \"database_id\": \"<string>\",\n      \"facebook_id\": \"<string>\",\n      \"google_id\": \"<string>\",\n      \"current_funnel_stage\": \"<string>\",\n      \"profile_type\": \"<integer>\",\n      \"loyalty_point\": \"<long>\",\n      \"labels\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"segments\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"lead_score\": \"<long>\",\n      \"lead_score_change_history\": [\n        {\n          \"essec\": true,\n          \"pariatur_a3c\": \"minim do veniam officia aliqua\"\n        },\n        {\n          \"et7a\": -68589977.1857927\n        }\n      ],\n      \"created_date\": \"<dateTime>\",\n      \"updated_date\": \"<dateTime>\",\n      \"primary_email\": \"<string>\",\n      \"primary_phone_number\": \"<string>\",\n      \"first_name\": \"<string>\",\n      \"last_name\": \"<string>\",\n      \"full_name\": \"<string>\",\n      \"nickname\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"gender\": \"<integer>\",\n      \"age\": \"<integer>\",\n      \"date_of_birth\": \"<dateTime>\",\n      \"race\": \"<string>\",\n      \"religion\": \"<string>\",\n      \"nationality\": \"<string>\",\n      \"language\": \"<string>\",\n      \"timezone\": \"<string>\",\n      \"citizen_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"passport_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"additional_emails\": \"<string>\",\n      \"additional_phone_numbers\": \"<string>\",\n      \"social_network_profiles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"education_level\": \"<integer>\",\n      \"education_and_schools\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"family_status\": \"<integer>\",\n      \"job_titles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_names\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_aliases\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"credit_history\": [\n        {\n          \"nisi_c\": -2055284.0642920583,\n          \"laborum3\": -91048109,\n          \"in3\": \"officia nisi\"\n        },\n        {\n          \"magna_19\": -6170675.548354998,\n          \"laboris0\": -40023212,\n          \"aute_f\": 5225465\n        }\n      ],\n      \"monthly_income\": \"<double>\",\n      \"annual_income\": \"<double>\",\n      \"number_of_dependants\": \"<integer>\",\n      \"number_of_open_credit_lines_and_loans\": \"<double>\",\n      \"number_real_estate_loans_or_lines\": \"<double>\",\n      \"lifestyles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"social_status\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"personality\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"hobbies\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"attitudes\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"interests\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"engaged_touch_points\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"reachable_media_channels\": [\n        {\n          \"commodo_464\": \"et dolor\",\n          \"eae\": -5635104.7351492345,\n          \"Duis_5e\": -9656407,\n          \"ipsum_8\": 54747497\n        },\n        {\n          \"culpa8\": true\n        }\n      ],\n      \"content_marketing_keywords\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"personal_problem_and_pain_points\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"solutions_for_customer\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"online_shopping_habits\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"timing_based_behaviour\": \"<string>\",\n      \"actions_taken_on_web_app\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"abandoned_cart\": [\n        {\n          \"occaecat_64\": -20415748,\n          \"tempor1b7\": true,\n          \"Duis9\": 51380228\n        },\n        {\n          \"eiusmod_af1\": \"velit ut sint anim\"\n        }\n      ],\n      \"interested_products\": [\n        {\n          \"irure_f\": 86798561\n        },\n        {\n          \"magna_7b\": 71941480,\n          \"in8\": 91301257.66700175\n        }\n      ],\n      \"recommended_products\": [\n        {\n          \"tempor3\": \"ipsum reprehenderit cupidatat id\",\n          \"proidentd7\": 97041380,\n          \"eiusmodfc1\": -97687477.41969097\n        },\n        {\n          \"cillum4d\": true\n        }\n      ],\n      \"purchased_products\": [\n        {\n          \"dolor7\": true,\n          \"dolore9\": -91423257.56031418,\n          \"velit0a\": -69441482.13473889,\n          \"exd\": \"officia\"\n        },\n        {\n          \"tempor_d\": \"consequat dolor nulla eu\"\n        }\n      ],\n      \"customer_feedbacks\": [\n        {\n          \"dolore111\": -5146334\n        },\n        {\n          \"est5d6\": true,\n          \"Ut_c\": 13437847.012422964\n        }\n      ],\n      \"customer_support_tickets\": [\n        {\n          \"velit1\": -62995168,\n          \"eu_c4\": \"in incididunt eu\"\n        },\n        {\n          \"adipisicing_7\": -13464524.277822897,\n          \"culpa_623\": true,\n          \"suntf\": -81779408.90948662\n        }\n      ],\n      \"number_of_sessions\": \"<long>\",\n      \"number_of_pages_visited\": \"<long>\",\n      \"time_spent_on_site\": \"<long>\",\n      \"visited_urls\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"visited_page_types\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"shopping_cart_value\": \"<long>\",\n      \"campaign_history\": [\n        {\n          \"aliqua_62\": \"adipisicing ea dolor\",\n          \"incididunt_e7\": 81569069,\n          \"sit_b\": 70107388.33683434\n        },\n        {\n          \"aliquipd53\": false\n        }\n      ],\n      \"referral_source\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"exit_intent\": [\n        {\n          \"consequat_7d3\": 51611706,\n          \"sunt7\": \"sit cupidatat tempor labore\"\n        },\n        {\n          \"dolorea\": 85135939,\n          \"commodo_5\": 81552623.40542352,\n          \"occaecat_74\": 33293335\n        }\n      ],\n      \"inactivity_time\": \"<long>\",\n      \"industry\": \"<string>\",\n      \"company_size\": \"<integer>\",\n      \"number_of_employees\": \"<integer>\",\n      \"status_and_structure\": \"<string>\",\n      \"performance\": [\n        {\n          \"sit56_\": true\n        },\n        {\n          \"Duis_ae3\": true\n        }\n      ],\n      \"account_id\": \"<long>\",\n      \"workspace_id\": \"<long>\",\n      \"source_id\": \"<long>\",\n      \"source_type\": \"<string>\",\n      \"import_id\": \"<long>\",\n      \"archived\": \"<boolean>\",\n      \"email_status\": \"<string>\",\n      \"external_id\": \"<long>\",\n      \"first_visit\": \"<dateTime>\",\n      \"last_visit\": \"<dateTime>\",\n      \"number_of_visits\": \"<long>\",\n      \"previous_visit\": \"<dateTime>\",\n      \"status\": \"<integer>\",\n      \"subscribed_at\": \"<dateTime>\",\n      \"custom_fields\": [\n        {\n          \"proident2e\": \"ea consequat laboris \",\n          \"incididunt7\": false\n        },\n        {\n          \"velitc3\": false,\n          \"consectetura03\": \"aute est ad commodo aliquip\"\n        }\n      ]\n    },\n    \"updateStrategy\": {\n      \"append\": \"<string>\",\n      \"addition\": \"<string>\",\n      \"override\": \"<string>\"\n    }\n  }\n]",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/v1/profiles/batchUpdate",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "v1",
+                        "profiles",
+                        "batchUpdate"
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "id": "1ffe9178-4992-49ae-8d4a-f777839d1017",
+                    "name": "Empty object",
+                    "originalRequest": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[\n  {\n    \"profile\": {\n      \"visitor_id\": \"<string>\",\n      \"database_id\": \"<string>\",\n      \"facebook_id\": \"<string>\",\n      \"google_id\": \"<string>\",\n      \"current_funnel_stage\": \"<string>\",\n      \"profile_type\": \"<integer>\",\n      \"loyalty_point\": \"<long>\",\n      \"labels\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"segments\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"lead_score\": \"<long>\",\n      \"lead_score_change_history\": [\n        {\n          \"fugiat_c7\": \"veniam\"\n        },\n        {\n          \"sed7a5\": 62282758.7773267,\n          \"officiafc\": \"magn\"\n        }\n      ],\n      \"created_date\": \"<dateTime>\",\n      \"updated_date\": \"<dateTime>\",\n      \"primary_email\": \"<string>\",\n      \"primary_phone_number\": \"<string>\",\n      \"first_name\": \"<string>\",\n      \"last_name\": \"<string>\",\n      \"full_name\": \"<string>\",\n      \"nickname\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"gender\": \"<integer>\",\n      \"age\": \"<integer>\",\n      \"date_of_birth\": \"<dateTime>\",\n      \"race\": \"<string>\",\n      \"religion\": \"<string>\",\n      \"nationality\": \"<string>\",\n      \"language\": \"<string>\",\n      \"timezone\": \"<string>\",\n      \"citizen_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"passport_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"additional_emails\": \"<string>\",\n      \"additional_phone_numbers\": \"<string>\",\n      \"social_network_profiles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"education_level\": \"<integer>\",\n      \"education_and_schools\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"family_status\": \"<integer>\",\n      \"job_titles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_names\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_aliases\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"credit_history\": [\n        {\n          \"in_5\": -46094893,\n          \"aliquip_3_9\": \"pariatur dolore eu\"\n        },\n        {\n          \"id_44\": true,\n          \"elit_edf\": false\n        }\n      ],\n      \"monthly_income\": \"<double>\",\n      \"annual_income\": \"<double>\",\n      \"number_of_dependants\": \"<integer>\",\n      \"number_of_open_credit_lines_and_loans\": \"<double>\",\n      \"number_real_estate_loans_or_lines\": \"<double>\",\n      \"lifestyles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"social_status\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"personality\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"hobbies\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"attitudes\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"interests\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"engaged_touch_points\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"reachable_media_channels\": [\n        {\n          \"eu_17\": \"labore\",\n          \"et_e\": 1954116\n        },\n        {\n          \"ipsum_d_c\": false,\n          \"id_3\": false,\n          \"nulla_b_8\": 49251417,\n          \"cupidatat_0\": \"incididunt commodo\"\n        }\n      ],\n      \"content_marketing_keywords\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"personal_problem_and_pain_points\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"solutions_for_customer\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"online_shopping_habits\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"timing_based_behaviour\": \"<string>\",\n      \"actions_taken_on_web_app\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"abandoned_cart\": [\n        {\n          \"veniam_be\": -88602278\n        },\n        {\n          \"consectetur_01\": -97695693,\n          \"quis6bd\": true\n        }\n      ],\n      \"interested_products\": [\n        {\n          \"aliquipb0\": true,\n          \"aliquip_c\": false\n        },\n        {\n          \"in__07\": -39586639.38550808,\n          \"laboris_ac1\": 85397014\n        }\n      ],\n      \"recommended_products\": [\n        {\n          \"adipisicingd6\": \"pariatur dolore irure\",\n          \"eu_f0\": false,\n          \"do66\": -79302618\n        },\n        {\n          \"veniam_7e\": \"et\"\n        }\n      ],\n      \"purchased_products\": [\n        {\n          \"deserunt_145\": -38780255,\n          \"aute_29\": -41462715.44384676,\n          \"ad_60_\": -47580567.47883716\n        },\n        {\n          \"nisi4\": -96049164,\n          \"non__\": -72784868\n        }\n      ],\n      \"customer_feedbacks\": [\n        {\n          \"dolore_d\": 47152722,\n          \"dolore_99\": 98531087.38191411,\n          \"labore_5\": false,\n          \"quis721\": 94878065\n        },\n        {\n          \"dolore2a\": true,\n          \"aliquafbb\": true\n        }\n      ],\n      \"customer_support_tickets\": [\n        {\n          \"ea_d_6\": \"dolor aliqua\"\n        },\n        {\n          \"eufd_\": -193670.52560843527\n        }\n      ],\n      \"number_of_sessions\": \"<long>\",\n      \"number_of_pages_visited\": \"<long>\",\n      \"time_spent_on_site\": \"<long>\",\n      \"visited_urls\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"visited_page_types\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"shopping_cart_value\": \"<long>\",\n      \"campaign_history\": [\n        {\n          \"et_e\": -16913607\n        },\n        {\n          \"consequat0\": \"aute tempor Duis\"\n        }\n      ],\n      \"referral_source\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"exit_intent\": [\n        {\n          \"voluptate_4\": 43657282,\n          \"tempor_72\": -14194040.969630435\n        },\n        {\n          \"laborum_ba\": 94083342\n        }\n      ],\n      \"inactivity_time\": \"<long>\",\n      \"industry\": \"<string>\",\n      \"company_size\": \"<integer>\",\n      \"number_of_employees\": \"<integer>\",\n      \"status_and_structure\": \"<string>\",\n      \"performance\": [\n        {\n          \"irure_c1\": -94250435.41114384,\n          \"Excepteur6\": -61413957\n        },\n        {\n          \"anim12\": 99465950.47008261\n        }\n      ],\n      \"account_id\": \"<long>\",\n      \"workspace_id\": \"<long>\",\n      \"source_id\": \"<long>\",\n      \"source_type\": \"<string>\",\n      \"import_id\": \"<long>\",\n      \"archived\": \"<boolean>\",\n      \"email_status\": \"<string>\",\n      \"external_id\": \"<long>\",\n      \"first_visit\": \"<dateTime>\",\n      \"last_visit\": \"<dateTime>\",\n      \"number_of_visits\": \"<long>\",\n      \"previous_visit\": \"<dateTime>\",\n      \"status\": \"<integer>\",\n      \"subscribed_at\": \"<dateTime>\",\n      \"custom_fields\": [\n        {\n          \"aliqua_e\": 5990429.642544419\n        },\n        {\n          \"dolore_e_5\": \"laborum do deserunt et Lorem\"\n        }\n      ]\n    },\n    \"updateStrategy\": {\n      \"append\": \"<string>\",\n      \"addition\": \"<string>\",\n      \"override\": \"<string>\"\n    }\n  },\n  {\n    \"profile\": {\n      \"visitor_id\": \"<string>\",\n      \"database_id\": \"<string>\",\n      \"facebook_id\": \"<string>\",\n      \"google_id\": \"<string>\",\n      \"current_funnel_stage\": \"<string>\",\n      \"profile_type\": \"<integer>\",\n      \"loyalty_point\": \"<long>\",\n      \"labels\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"segments\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"lead_score\": \"<long>\",\n      \"lead_score_change_history\": [\n        {\n          \"veniam_da\": \"officia commodo laboris qui\"\n        },\n        {\n          \"ipsumd\": -32867707.026756674,\n          \"consequated4\": true\n        }\n      ],\n      \"created_date\": \"<dateTime>\",\n      \"updated_date\": \"<dateTime>\",\n      \"primary_email\": \"<string>\",\n      \"primary_phone_number\": \"<string>\",\n      \"first_name\": \"<string>\",\n      \"last_name\": \"<string>\",\n      \"full_name\": \"<string>\",\n      \"nickname\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"gender\": \"<integer>\",\n      \"age\": \"<integer>\",\n      \"date_of_birth\": \"<dateTime>\",\n      \"race\": \"<string>\",\n      \"religion\": \"<string>\",\n      \"nationality\": \"<string>\",\n      \"language\": \"<string>\",\n      \"timezone\": \"<string>\",\n      \"citizen_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"passport_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"additional_emails\": \"<string>\",\n      \"additional_phone_numbers\": \"<string>\",\n      \"social_network_profiles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"education_level\": \"<integer>\",\n      \"education_and_schools\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"family_status\": \"<integer>\",\n      \"job_titles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_names\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_aliases\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"company_ids\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"credit_history\": [\n        {\n          \"ea_e4\": false\n        },\n        {\n          \"cupidatatf0\": \"officia nulla est\",\n          \"etf6\": \"velit dolore laborum elit aliqua\"\n        }\n      ],\n      \"monthly_income\": \"<double>\",\n      \"annual_income\": \"<double>\",\n      \"number_of_dependants\": \"<integer>\",\n      \"number_of_open_credit_lines_and_loans\": \"<double>\",\n      \"number_real_estate_loans_or_lines\": \"<double>\",\n      \"lifestyles\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"social_status\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"personality\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"hobbies\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"attitudes\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"interests\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"engaged_touch_points\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"reachable_media_channels\": [\n        {\n          \"fugiat_e66\": \"ex cupidatat aliquip in\"\n        },\n        {\n          \"commodo__6\": -36321490,\n          \"sinta\": \"nisi veniam voluptate\"\n        }\n      ],\n      \"content_marketing_keywords\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"personal_problem_and_pain_points\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"solutions_for_customer\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"online_shopping_habits\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"timing_based_behaviour\": \"<string>\",\n      \"actions_taken_on_web_app\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"abandoned_cart\": [\n        {\n          \"Lorem_8c\": 63872922.4396272,\n          \"minim_93\": true,\n          \"amet79\": -18063368.46211937\n        },\n        {\n          \"magna44\": -29150674,\n          \"in2_\": false,\n          \"do08f\": \"dolor culpa\"\n        }\n      ],\n      \"interested_products\": [\n        {\n          \"nulla_9\": true\n        },\n        {\n          \"id4af\": false,\n          \"Ut_1\": true,\n          \"deserunt_42\": -55391254.65771351\n        }\n      ],\n      \"recommended_products\": [\n        {\n          \"irure4_\": \"dolore laboris culpa\",\n          \"fugiat_6\": 19523877,\n          \"occaecat_32\": \"exercitation aute Duis anim\"\n        },\n        {\n          \"laboris_d26\": 11131195.409308076,\n          \"do0\": 68774115.93864232,\n          \"nisi_5\": true,\n          \"ipsum_280\": -19947510\n        }\n      ],\n      \"purchased_products\": [\n        {\n          \"officia_1\": 8683266.52994655\n        },\n        {\n          \"veniamee\": \"dolore cupidatat lab\",\n          \"nisia\": -27242393.987600222\n        }\n      ],\n      \"customer_feedbacks\": [\n        {\n          \"magna_2__\": 95212761,\n          \"aliquipd9b\": 60535064,\n          \"labore_92b\": \"ad adipisici\"\n        },\n        {\n          \"Duis34f\": -70437425.24245587\n        }\n      ],\n      \"customer_support_tickets\": [\n        {\n          \"in_e1\": \"ipsum c\",\n          \"eiusmod__\": -52676550.336698204\n        },\n        {\n          \"tempor4__\": true,\n          \"ina\": false,\n          \"ipsum72b\": \"eiusmod\"\n        }\n      ],\n      \"number_of_sessions\": \"<long>\",\n      \"number_of_pages_visited\": \"<long>\",\n      \"time_spent_on_site\": \"<long>\",\n      \"visited_urls\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"visited_page_types\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"shopping_cart_value\": \"<long>\",\n      \"campaign_history\": [\n        {\n          \"minim_2c7\": 46034415.20509705\n        },\n        {\n          \"irure4f\": 21392951.150030643,\n          \"deserunt7\": -69698487.82180357\n        }\n      ],\n      \"referral_source\": [\n        \"<string>\",\n        \"<string>\"\n      ],\n      \"exit_intent\": [\n        {\n          \"exercitation_c\": false,\n          \"sit75\": false\n        },\n        {\n          \"reprehenderit0b\": \"enim et do eiusmod laborum\",\n          \"sunt_7f5\": 50157868.41535622\n        }\n      ],\n      \"inactivity_time\": \"<long>\",\n      \"industry\": \"<string>\",\n      \"company_size\": \"<integer>\",\n      \"number_of_employees\": \"<integer>\",\n      \"status_and_structure\": \"<string>\",\n      \"performance\": [\n        {\n          \"autebf6\": 51819151.556188494\n        },\n        {\n          \"nostrud_46\": true,\n          \"Ut_e\": -13061362.605213493\n        }\n      ],\n      \"account_id\": \"<long>\",\n      \"workspace_id\": \"<long>\",\n      \"source_id\": \"<long>\",\n      \"source_type\": \"<string>\",\n      \"import_id\": \"<long>\",\n      \"archived\": \"<boolean>\",\n      \"email_status\": \"<string>\",\n      \"external_id\": \"<long>\",\n      \"first_visit\": \"<dateTime>\",\n      \"last_visit\": \"<dateTime>\",\n      \"number_of_visits\": \"<long>\",\n      \"previous_visit\": \"<dateTime>\",\n      \"status\": \"<integer>\",\n      \"subscribed_at\": \"<dateTime>\",\n      \"custom_fields\": [\n        {\n          \"nulla_06\": -76066910.65863931\n        },\n        {\n          \"amet_c5f\": 94097273,\n          \"ut_6\": 80518499.49816683,\n          \"et25b\": 18227097\n        }\n      ]\n    },\n    \"updateStrategy\": {\n      \"append\": \"<string>\",\n      \"addition\": \"<string>\",\n      \"override\": \"<string>\"\n    }\n  }\n]",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/v1/profiles/batchUpdate",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "v1",
+                                "profiles",
+                                "batchUpdate"
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "null"
+                }
+            ]
+        },
+        {
+            "name": "Batch create profiles specification",
+            "id": "51c78a95-f902-4137-b69f-a888e9b6a406",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "[\n  {\n    \"visitor_id\": \"<string>\",\n    \"database_id\": \"<string>\",\n    \"facebook_id\": \"<string>\",\n    \"google_id\": \"<string>\",\n    \"current_funnel_stage\": \"<string>\",\n    \"profile_type\": \"<integer>\",\n    \"loyalty_point\": \"<long>\",\n    \"labels\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"segments\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"lead_score\": \"<long>\",\n    \"lead_score_change_history\": [\n      {\n        \"qui_ee\": false,\n        \"ind0\": 30664290.316713363\n      },\n      {\n        \"labore_0\": \"anim sit\",\n        \"consectetur_6\": \"amet\"\n      }\n    ],\n    \"created_date\": \"<dateTime>\",\n    \"updated_date\": \"<dateTime>\",\n    \"primary_email\": \"<string>\",\n    \"primary_phone_number\": \"<string>\",\n    \"first_name\": \"<string>\",\n    \"last_name\": \"<string>\",\n    \"full_name\": \"<string>\",\n    \"nickname\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"gender\": \"<integer>\",\n    \"age\": \"<integer>\",\n    \"date_of_birth\": \"<dateTime>\",\n    \"race\": \"<string>\",\n    \"religion\": \"<string>\",\n    \"nationality\": \"<string>\",\n    \"language\": \"<string>\",\n    \"timezone\": \"<string>\",\n    \"citizen_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"passport_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"additional_emails\": \"<string>\",\n    \"additional_phone_numbers\": \"<string>\",\n    \"social_network_profiles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"education_level\": \"<integer>\",\n    \"education_and_schools\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"family_status\": \"<integer>\",\n    \"job_titles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_names\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_aliases\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"credit_history\": [\n      {\n        \"consectetur_ef\": true\n      },\n      {\n        \"irure_c\": -43394289\n      }\n    ],\n    \"monthly_income\": \"<double>\",\n    \"annual_income\": \"<double>\",\n    \"number_of_dependants\": \"<integer>\",\n    \"number_of_open_credit_lines_and_loans\": \"<double>\",\n    \"number_real_estate_loans_or_lines\": \"<double>\",\n    \"lifestyles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"social_status\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"personality\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"hobbies\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"attitudes\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"interests\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"engaged_touch_points\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"reachable_media_channels\": [\n      {\n        \"ad_061\": true,\n        \"nostrudc_\": -96482448,\n        \"velit_8\": 57244561.174869746,\n        \"enime0\": -87403443.09860748\n      },\n      {\n        \"labore_b6b\": 9070542.430916443\n      }\n    ],\n    \"content_marketing_keywords\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"personal_problem_and_pain_points\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"solutions_for_customer\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"online_shopping_habits\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"timing_based_behaviour\": \"<string>\",\n    \"actions_taken_on_web_app\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"abandoned_cart\": [\n      {\n        \"et_da\": 26984712.952974692\n      },\n      {\n        \"labore9e\": 23896707\n      }\n    ],\n    \"interested_products\": [\n      {\n        \"dolor_4ab\": 64050379,\n        \"non_98\": \"deserunt Ut sint commodo laboris\"\n      },\n      {\n        \"commodo_b\": \"laboris\"\n      }\n    ],\n    \"recommended_products\": [\n      {\n        \"consequata1\": 80577545.61082372\n      },\n      {\n        \"animf3\": 37604665.80244738,\n        \"non_30\": -65975147.15800048,\n        \"aute203\": false,\n        \"est090\": 86614662,\n        \"deserunt_0\": -54177380.1850268\n      }\n    ],\n    \"purchased_products\": [\n      {\n        \"culpa_da\": false,\n        \"dolor_2_5\": false,\n        \"consectetur__5\": 99345404.76964298\n      },\n      {\n        \"pariatur_b\": true,\n        \"commodo_c0\": 60726926,\n        \"fugiat_\": 89270510\n      }\n    ],\n    \"customer_feedbacks\": [\n      {\n        \"commodo_99c\": \"minim in id\"\n      },\n      {\n        \"et_1\": \"exercitation\",\n        \"ut_29\": 2995745,\n        \"dolorf\": -58986688\n      }\n    ],\n    \"customer_support_tickets\": [\n      {\n        \"nulla_a\": -2549399.250496447\n      },\n      {\n        \"et2d5\": 5039682,\n        \"dolor8bf\": 90475422.21922061\n      }\n    ],\n    \"number_of_sessions\": \"<long>\",\n    \"number_of_pages_visited\": \"<long>\",\n    \"time_spent_on_site\": \"<long>\",\n    \"visited_urls\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"visited_page_types\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"shopping_cart_value\": \"<long>\",\n    \"campaign_history\": [\n      {\n        \"proident_8a3\": false,\n        \"laborumad\": true\n      },\n      {\n        \"enim_32b\": 42362557,\n        \"dolore72\": -78236344,\n        \"labore18\": 94638472.91539031\n      }\n    ],\n    \"referral_source\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"exit_intent\": [\n      {\n        \"sed_85\": -63314628.46098259\n      },\n      {\n        \"sunt_f7\": -52295802.79737225,\n        \"sunt3d\": \"consequat aliquip eiusmod\"\n      }\n    ],\n    \"inactivity_time\": \"<long>\",\n    \"industry\": \"<string>\",\n    \"company_size\": \"<integer>\",\n    \"number_of_employees\": \"<integer>\",\n    \"status_and_structure\": \"<string>\",\n    \"performance\": [\n      {\n        \"eu_8c5\": \"voluptate sint in nulla\"\n      },\n      {\n        \"quis_46\": \"est fugiat exercitation id\",\n        \"consequat_73\": false\n      }\n    ],\n    \"account_id\": \"<long>\",\n    \"workspace_id\": \"<long>\",\n    \"source_id\": \"<long>\",\n    \"source_type\": \"<string>\",\n    \"import_id\": \"<long>\",\n    \"archived\": \"<boolean>\",\n    \"email_status\": \"<string>\",\n    \"external_id\": \"<long>\",\n    \"first_visit\": \"<dateTime>\",\n    \"last_visit\": \"<dateTime>\",\n    \"number_of_visits\": \"<long>\",\n    \"previous_visit\": \"<dateTime>\",\n    \"status\": \"<integer>\",\n    \"subscribed_at\": \"<dateTime>\",\n    \"custom_fields\": [\n      {\n        \"laboris_25\": 86397868.0132423\n      },\n      {\n        \"officia_d2f\": -54000238.683599114,\n        \"ut_7\": false,\n        \"Lorem_4d5\": \"quis dolor proident\"\n      }\n    ]\n  },\n  {\n    \"visitor_id\": \"<string>\",\n    \"database_id\": \"<string>\",\n    \"facebook_id\": \"<string>\",\n    \"google_id\": \"<string>\",\n    \"current_funnel_stage\": \"<string>\",\n    \"profile_type\": \"<integer>\",\n    \"loyalty_point\": \"<long>\",\n    \"labels\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"segments\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"lead_score\": \"<long>\",\n    \"lead_score_change_history\": [\n      {\n        \"fugiat_3\": 49847399.88535866,\n        \"Lorem_647\": 43075091.144094944\n      },\n      {\n        \"ipsum_170\": 14806706\n      }\n    ],\n    \"created_date\": \"<dateTime>\",\n    \"updated_date\": \"<dateTime>\",\n    \"primary_email\": \"<string>\",\n    \"primary_phone_number\": \"<string>\",\n    \"first_name\": \"<string>\",\n    \"last_name\": \"<string>\",\n    \"full_name\": \"<string>\",\n    \"nickname\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"gender\": \"<integer>\",\n    \"age\": \"<integer>\",\n    \"date_of_birth\": \"<dateTime>\",\n    \"race\": \"<string>\",\n    \"religion\": \"<string>\",\n    \"nationality\": \"<string>\",\n    \"language\": \"<string>\",\n    \"timezone\": \"<string>\",\n    \"citizen_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"passport_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"additional_emails\": \"<string>\",\n    \"additional_phone_numbers\": \"<string>\",\n    \"social_network_profiles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"education_level\": \"<integer>\",\n    \"education_and_schools\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"family_status\": \"<integer>\",\n    \"job_titles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_names\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_aliases\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"credit_history\": [\n      {\n        \"enim_2\": -40504401,\n        \"irure_c\": -58849393\n      },\n      {\n        \"irure2\": 365358\n      }\n    ],\n    \"monthly_income\": \"<double>\",\n    \"annual_income\": \"<double>\",\n    \"number_of_dependants\": \"<integer>\",\n    \"number_of_open_credit_lines_and_loans\": \"<double>\",\n    \"number_real_estate_loans_or_lines\": \"<double>\",\n    \"lifestyles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"social_status\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"personality\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"hobbies\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"attitudes\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"interests\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"engaged_touch_points\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"reachable_media_channels\": [\n      {\n        \"incididunt_6\": \"veniam enim nisi nostrud esse\"\n      },\n      {\n        \"minim5\": true,\n        \"incididunt_64\": false\n      }\n    ],\n    \"content_marketing_keywords\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"personal_problem_and_pain_points\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"solutions_for_customer\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"online_shopping_habits\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"timing_based_behaviour\": \"<string>\",\n    \"actions_taken_on_web_app\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"abandoned_cart\": [\n      {\n        \"in4__\": -86571595,\n        \"officiafd2\": 24792837\n      },\n      {\n        \"laboris_63f\": \"Duis\"\n      }\n    ],\n    \"interested_products\": [\n      {\n        \"laborum_f\": true,\n        \"ut9_0\": \"esse voluptate\",\n        \"cillum083\": 82772986.56575018\n      },\n      {\n        \"dolore8\": \"ut reprehenderit aute\",\n        \"magna_25\": true\n      }\n    ],\n    \"recommended_products\": [\n      {\n        \"non_21c\": 86885237.22821057\n      },\n      {\n        \"site\": -37927443.79637902\n      }\n    ],\n    \"purchased_products\": [\n      {\n        \"eu258\": false,\n        \"Excepteur96c\": true,\n        \"cillum01\": false,\n        \"sunt66\": \"est ut\"\n      },\n      {\n        \"sint_b\": 69735546.5925371,\n        \"nullac\": -96133903.57940346\n      }\n    ],\n    \"customer_feedbacks\": [\n      {\n        \"minima84\": -34717225.03673411,\n        \"officiae50\": true\n      },\n      {\n        \"ullamco_d11\": -39239610.0900803,\n        \"exb\": -48099168.620726965\n      }\n    ],\n    \"customer_support_tickets\": [\n      {\n        \"sed_4\": false\n      },\n      {\n        \"irure_cf8\": 63832627.86127335,\n        \"aliquip_556\": \"esse nisi sed occaecat\",\n        \"aliqua__\": false\n      }\n    ],\n    \"number_of_sessions\": \"<long>\",\n    \"number_of_pages_visited\": \"<long>\",\n    \"time_spent_on_site\": \"<long>\",\n    \"visited_urls\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"visited_page_types\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"shopping_cart_value\": \"<long>\",\n    \"campaign_history\": [\n      {\n        \"Excepteur_15\": 15979797.406408995\n      },\n      {\n        \"adipisicingdd9\": \"in Lorem cupidatat\",\n        \"consequat5e\": 85641957,\n        \"minim1b\": \"Duis est\",\n        \"labore_4\": 92909756.86854374\n      }\n    ],\n    \"referral_source\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"exit_intent\": [\n      {\n        \"commodob\": 98825700,\n        \"Excepteur6\": 35622587,\n        \"suntb6\": -49027939.79677513\n      },\n      {\n        \"commodod_\": true,\n        \"sintac0\": -3835705\n      }\n    ],\n    \"inactivity_time\": \"<long>\",\n    \"industry\": \"<string>\",\n    \"company_size\": \"<integer>\",\n    \"number_of_employees\": \"<integer>\",\n    \"status_and_structure\": \"<string>\",\n    \"performance\": [\n      {\n        \"ex2\": -43707982\n      },\n      {\n        \"reprehenderit90\": -42904997\n      }\n    ],\n    \"account_id\": \"<long>\",\n    \"workspace_id\": \"<long>\",\n    \"source_id\": \"<long>\",\n    \"source_type\": \"<string>\",\n    \"import_id\": \"<long>\",\n    \"archived\": \"<boolean>\",\n    \"email_status\": \"<string>\",\n    \"external_id\": \"<long>\",\n    \"first_visit\": \"<dateTime>\",\n    \"last_visit\": \"<dateTime>\",\n    \"number_of_visits\": \"<long>\",\n    \"previous_visit\": \"<dateTime>\",\n    \"status\": \"<integer>\",\n    \"subscribed_at\": \"<dateTime>\",\n    \"custom_fields\": [\n      {\n        \"non_b52\": -30758971.59815018\n      },\n      {\n        \"enim_3b\": \"elit ea nostrud ut\"\n      }\n    ]\n  }\n]",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/v1/profiles/batchCreate",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "v1",
+                        "profiles",
+                        "batchCreate"
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "id": "9517e2a3-b48b-47aa-b21e-b042364b9bb0",
+                    "name": "Empty object",
+                    "originalRequest": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[\n  {\n    \"visitor_id\": \"<string>\",\n    \"database_id\": \"<string>\",\n    \"facebook_id\": \"<string>\",\n    \"google_id\": \"<string>\",\n    \"current_funnel_stage\": \"<string>\",\n    \"profile_type\": \"<integer>\",\n    \"loyalty_point\": \"<long>\",\n    \"labels\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"segments\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"lead_score\": \"<long>\",\n    \"lead_score_change_history\": [\n      {\n        \"quis_ba\": \"ipsum mollit labore enim et\",\n        \"aliqua97\": -74763813\n      },\n      {\n        \"adipisicing_f07\": false\n      }\n    ],\n    \"created_date\": \"<dateTime>\",\n    \"updated_date\": \"<dateTime>\",\n    \"primary_email\": \"<string>\",\n    \"primary_phone_number\": \"<string>\",\n    \"first_name\": \"<string>\",\n    \"last_name\": \"<string>\",\n    \"full_name\": \"<string>\",\n    \"nickname\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"gender\": \"<integer>\",\n    \"age\": \"<integer>\",\n    \"date_of_birth\": \"<dateTime>\",\n    \"race\": \"<string>\",\n    \"religion\": \"<string>\",\n    \"nationality\": \"<string>\",\n    \"language\": \"<string>\",\n    \"timezone\": \"<string>\",\n    \"citizen_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"passport_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"additional_emails\": \"<string>\",\n    \"additional_phone_numbers\": \"<string>\",\n    \"social_network_profiles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"education_level\": \"<integer>\",\n    \"education_and_schools\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"family_status\": \"<integer>\",\n    \"job_titles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_names\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_aliases\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"credit_history\": [\n      {\n        \"aliquipa\": true\n      },\n      {\n        \"ut__\": 98519341.87198669,\n        \"ea_502\": -90298276\n      }\n    ],\n    \"monthly_income\": \"<double>\",\n    \"annual_income\": \"<double>\",\n    \"number_of_dependants\": \"<integer>\",\n    \"number_of_open_credit_lines_and_loans\": \"<double>\",\n    \"number_real_estate_loans_or_lines\": \"<double>\",\n    \"lifestyles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"social_status\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"personality\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"hobbies\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"attitudes\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"interests\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"engaged_touch_points\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"reachable_media_channels\": [\n      {\n        \"fugiatba5\": -43552090,\n        \"laborum_c\": -19761554,\n        \"nisi_db\": \"sint ex proident dolore quis\"\n      },\n      {\n        \"incididunt_6a\": true\n      }\n    ],\n    \"content_marketing_keywords\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"personal_problem_and_pain_points\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"solutions_for_customer\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"online_shopping_habits\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"timing_based_behaviour\": \"<string>\",\n    \"actions_taken_on_web_app\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"abandoned_cart\": [\n      {\n        \"eu2\": true,\n        \"id_90f\": \"aliquip qui dolor et\",\n        \"incididunt7\": \"ipsum Ut\",\n        \"velit6\": \"dolore sed magna ut\"\n      },\n      {\n        \"tempor8\": true\n      }\n    ],\n    \"interested_products\": [\n      {\n        \"ut9a2\": \"culpa sit\",\n        \"proident3\": 66705178\n      },\n      {\n        \"voluptate_ba\": 15511526.962636203,\n        \"fugiat8c\": -47496076.793433726,\n        \"officia8\": \"Lorem consequat commodo non\",\n        \"dolor_d5\": \"sunt amet mollit\",\n        \"elit_857\": \"magna\"\n      }\n    ],\n    \"recommended_products\": [\n      {\n        \"magna__a\": \"incididunt non Duis\"\n      },\n      {\n        \"dolore_5\": 4715628\n      }\n    ],\n    \"purchased_products\": [\n      {\n        \"quis9d\": -47951312\n      },\n      {\n        \"sed_683\": true,\n        \"sit_93\": true\n      }\n    ],\n    \"customer_feedbacks\": [\n      {\n        \"eiusmodabd\": true,\n        \"anim_3\": 97598601,\n        \"proident3\": 24144202.82155922\n      },\n      {\n        \"ut30\": \"est ad commodo ea\"\n      }\n    ],\n    \"customer_support_tickets\": [\n      {\n        \"cupidatata\": \"ipsum sint nostrud\",\n        \"inc_\": 40236143.20568609\n      },\n      {\n        \"uta\": 89412145.53260598,\n        \"proidenta0\": false\n      }\n    ],\n    \"number_of_sessions\": \"<long>\",\n    \"number_of_pages_visited\": \"<long>\",\n    \"time_spent_on_site\": \"<long>\",\n    \"visited_urls\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"visited_page_types\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"shopping_cart_value\": \"<long>\",\n    \"campaign_history\": [\n      {\n        \"pariaturbb6\": true,\n        \"enima\": -43036317.59832771,\n        \"cupidatat_e_\": false\n      },\n      {\n        \"sed9\": -85608664,\n        \"reprehenderit7\": 33228702\n      }\n    ],\n    \"referral_source\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"exit_intent\": [\n      {\n        \"commodo6f6\": 84727.3541380465,\n        \"dolore_1e\": -68032561.56873618,\n        \"suntc24\": -50261988.27100044\n      },\n      {\n        \"dolore7\": \"ipsum do\",\n        \"consequat_21\": 50543496,\n        \"pariatur_7\": false,\n        \"sunt6b4\": -78015291\n      }\n    ],\n    \"inactivity_time\": \"<long>\",\n    \"industry\": \"<string>\",\n    \"company_size\": \"<integer>\",\n    \"number_of_employees\": \"<integer>\",\n    \"status_and_structure\": \"<string>\",\n    \"performance\": [\n      {\n        \"Duis_7\": \"consectetur proident\",\n        \"tempor4\": 81924583,\n        \"ea_2\": -4791690.881520256,\n        \"cillum_b\": \"veniam minim\"\n      },\n      {\n        \"sedb9\": true,\n        \"pariatur5\": -15817502.89217849,\n        \"dolorb37\": true,\n        \"nostrud_05\": false\n      }\n    ],\n    \"account_id\": \"<long>\",\n    \"workspace_id\": \"<long>\",\n    \"source_id\": \"<long>\",\n    \"source_type\": \"<string>\",\n    \"import_id\": \"<long>\",\n    \"archived\": \"<boolean>\",\n    \"email_status\": \"<string>\",\n    \"external_id\": \"<long>\",\n    \"first_visit\": \"<dateTime>\",\n    \"last_visit\": \"<dateTime>\",\n    \"number_of_visits\": \"<long>\",\n    \"previous_visit\": \"<dateTime>\",\n    \"status\": \"<integer>\",\n    \"subscribed_at\": \"<dateTime>\",\n    \"custom_fields\": [\n      {\n        \"cillum_f_1\": 44554870.15993574\n      },\n      {\n        \"eiusmod_4\": -52015445.17664085,\n        \"est_345\": -68499586\n      }\n    ]\n  },\n  {\n    \"visitor_id\": \"<string>\",\n    \"database_id\": \"<string>\",\n    \"facebook_id\": \"<string>\",\n    \"google_id\": \"<string>\",\n    \"current_funnel_stage\": \"<string>\",\n    \"profile_type\": \"<integer>\",\n    \"loyalty_point\": \"<long>\",\n    \"labels\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"segments\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"lead_score\": \"<long>\",\n    \"lead_score_change_history\": [\n      {\n        \"adipisicing_1\": -37340803.00679512,\n        \"Excepteur_8\": \"exercitation com\"\n      },\n      {\n        \"nisi_a7\": \"sed\",\n        \"officiae\": false,\n        \"voluptate04\": 6722915.260377511\n      }\n    ],\n    \"created_date\": \"<dateTime>\",\n    \"updated_date\": \"<dateTime>\",\n    \"primary_email\": \"<string>\",\n    \"primary_phone_number\": \"<string>\",\n    \"first_name\": \"<string>\",\n    \"last_name\": \"<string>\",\n    \"full_name\": \"<string>\",\n    \"nickname\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"gender\": \"<integer>\",\n    \"age\": \"<integer>\",\n    \"date_of_birth\": \"<dateTime>\",\n    \"race\": \"<string>\",\n    \"religion\": \"<string>\",\n    \"nationality\": \"<string>\",\n    \"language\": \"<string>\",\n    \"timezone\": \"<string>\",\n    \"citizen_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"passport_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"additional_emails\": \"<string>\",\n    \"additional_phone_numbers\": \"<string>\",\n    \"social_network_profiles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"education_level\": \"<integer>\",\n    \"education_and_schools\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"family_status\": \"<integer>\",\n    \"job_titles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_names\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_aliases\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"company_ids\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"credit_history\": [\n      {\n        \"aliquipd59\": -5914583\n      },\n      {\n        \"doac\": -96979603\n      }\n    ],\n    \"monthly_income\": \"<double>\",\n    \"annual_income\": \"<double>\",\n    \"number_of_dependants\": \"<integer>\",\n    \"number_of_open_credit_lines_and_loans\": \"<double>\",\n    \"number_real_estate_loans_or_lines\": \"<double>\",\n    \"lifestyles\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"social_status\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"personality\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"hobbies\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"attitudes\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"interests\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"engaged_touch_points\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"reachable_media_channels\": [\n      {\n        \"proident0e\": true\n      },\n      {\n        \"nisi_f\": -66915507.45813535,\n        \"sit_ab\": 18428910,\n        \"nostrudd2\": false\n      }\n    ],\n    \"content_marketing_keywords\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"personal_problem_and_pain_points\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"solutions_for_customer\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"online_shopping_habits\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"timing_based_behaviour\": \"<string>\",\n    \"actions_taken_on_web_app\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"abandoned_cart\": [\n      {\n        \"anim_71\": 23512143,\n        \"nostrudf4\": 56192106.41111386\n      },\n      {\n        \"Excepteurf\": 19748686\n      }\n    ],\n    \"interested_products\": [\n      {\n        \"nisi_3\": 70290920,\n        \"non_7\": false\n      },\n      {\n        \"aliquacd0\": -63506488.69531406\n      }\n    ],\n    \"recommended_products\": [\n      {\n        \"ex8cd\": 66380016\n      },\n      {\n        \"do_639\": -66286502.205888495,\n        \"aliqua_06\": false,\n        \"tempor_97b\": true\n      }\n    ],\n    \"purchased_products\": [\n      {\n        \"nostrud30a\": 16747065\n      },\n      {\n        \"officia_9\": 28840755.155659318,\n        \"reprehenderit_f\": -64505725,\n        \"consequatf3\": -4151749.3218171\n      }\n    ],\n    \"customer_feedbacks\": [\n      {\n        \"site0\": true,\n        \"eiusmode\": true,\n        \"ad_6\": false,\n        \"deserunt2c\": 15751428\n      },\n      {\n        \"Utcf\": true\n      }\n    ],\n    \"customer_support_tickets\": [\n      {\n        \"anim_ad\": \"nisi consequat ad\",\n        \"amet_48\": \"Lorem proident\",\n        \"mollit_0e\": \"amet Excepteur ut occaecat\"\n      },\n      {\n        \"Duis_656\": \"Ut proident\",\n        \"exercitation_7\": -1406668\n      }\n    ],\n    \"number_of_sessions\": \"<long>\",\n    \"number_of_pages_visited\": \"<long>\",\n    \"time_spent_on_site\": \"<long>\",\n    \"visited_urls\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"visited_page_types\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"shopping_cart_value\": \"<long>\",\n    \"campaign_history\": [\n      {\n        \"dolor_854\": -49478945.198576115\n      },\n      {\n        \"sunte\": false\n      }\n    ],\n    \"referral_source\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"exit_intent\": [\n      {\n        \"sit_f0\": \"in sint deserun\",\n        \"et53\": \"in ex\",\n        \"Ut2\": 83975168,\n        \"minimd9\": true,\n        \"do1\": \"reprehenderit laboris in\"\n      },\n      {\n        \"amet_957\": \"in\",\n        \"labore42_\": false,\n        \"voluptate3\": \"ex voluptate f\",\n        \"nisi_ff\": \"dolore\"\n      }\n    ],\n    \"inactivity_time\": \"<long>\",\n    \"industry\": \"<string>\",\n    \"company_size\": \"<integer>\",\n    \"number_of_employees\": \"<integer>\",\n    \"status_and_structure\": \"<string>\",\n    \"performance\": [\n      {\n        \"ipsuma3\": true,\n        \"ipsum_16\": 12313268,\n        \"minim_d49\": -44839518\n      },\n      {\n        \"enim89a\": -86964854,\n        \"docc\": \"tempor anim\"\n      }\n    ],\n    \"account_id\": \"<long>\",\n    \"workspace_id\": \"<long>\",\n    \"source_id\": \"<long>\",\n    \"source_type\": \"<string>\",\n    \"import_id\": \"<long>\",\n    \"archived\": \"<boolean>\",\n    \"email_status\": \"<string>\",\n    \"external_id\": \"<long>\",\n    \"first_visit\": \"<dateTime>\",\n    \"last_visit\": \"<dateTime>\",\n    \"number_of_visits\": \"<long>\",\n    \"previous_visit\": \"<dateTime>\",\n    \"status\": \"<integer>\",\n    \"subscribed_at\": \"<dateTime>\",\n    \"custom_fields\": [\n      {\n        \"Lorem_d09\": true,\n        \"cupidatatd18\": 26655295\n      },\n      {\n        \"in_8e0\": false,\n        \"aliquip_9_\": \"enim ea elit mollit\",\n        \"sit20\": false\n      }\n    ]\n  }\n]",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/v1/profiles/batchCreate",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "v1",
+                                "profiles",
+                                "batchCreate"
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "null"
+                }
+            ]
+        }
+    ],
+    "variable": [
+        {
+            "id": "114aff98-9f34-4200-9673-832f0b1d2397",
+            "key": "baseUrl",
+            "value": "localhost:8080",
+            "type": "string"
+        }
+    ]
+}
